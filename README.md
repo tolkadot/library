@@ -24,7 +24,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Donation receipt
 
-- [Display a summary of the amount raised for the campaign](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
+- [Display a summary of the amount raised for the campaign](https://github.com/Charitable/library/blob/master/donations/add-pending-to-approved-statuses.php)
+
+### Donations
+
+- [Treat Pending donations as "Approved" donations](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
 
 ### Extensions: Charitable Ambassadors 
 

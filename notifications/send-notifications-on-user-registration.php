@@ -1,14 +1,13 @@
 <?php
 /**
- * Notify wp admin when a user register with Charitable
+ * Notify admin and user when a user registers with Charitable.
  *
  * @param   array[] $fields
  * @param   Charitable_Donation_Form $form
  * @return  array[]
  */
 
-function charitable_notify_new_user($user_id, $values)
-{
+function charitable_notify_new_user($user_id, $values) {
 	wp_new_user_notification( $user_id, null, 'admin' );
 }
 

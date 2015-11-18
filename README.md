@@ -30,6 +30,22 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Treat Pending donations as "Approved" donations](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
 
+### Campaigns 
+
+- [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
+
+### Notifications
+
+- [Send notification emails to the admin & new user when someone registers](https://github.com/Charitable/library/blob/master/notifications/send-notifications-on-user-registration.php) (credit: [altatof](https://github.com/altatof))
+
+### Profile form
+
+- [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
+
+### Styles
+
+- [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)
+
 ### Extensions: Charitable Ambassadors 
 
 *Campaign Form*
@@ -41,11 +57,3 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the Campaign Details header](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/rename-campaign-details-section-title.php)
 - [Change the Campaign Name field label](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/rename-campaign-name-field-title.php)
 - [Remove the campaign length field and replace with an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
-
-### Profile form
-
-- [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
-
-### Styles
-
-- [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)

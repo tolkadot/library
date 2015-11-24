@@ -32,6 +32,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Campaigns 
 
+- [Add a progress bar before the campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/add-progress-bar-before-summary.php)
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
 
 ### Notifications

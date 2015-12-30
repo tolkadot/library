@@ -1,0 +1,35 @@
+<?php 
+/**
+ * Right after a donation is made, this sends a notification to admin if 
+ * the donation is pending AND it was made in offline mode.
+ *
+ * @param   int $donation_id
+ * @return  boolean
+ */
+function en_send_donation_notification_for_pending_offline( $donation_id ) {
+    /* Verify that the email is enabled. */
+    if ( ! charitable_get_helper( 'emails' )->is_enabled_email( Charitable_Email_New_Donation::get_email_id() ) ) {
+        return false;
+    }
+    
+    /* If the donation is not pending, stop here. */
+    if ( 'charitable-pending' != get_post_status( $donation_id ) ) {
+        return false;
+    }
+
+    /* If the donation was not made with the offline payment option, stop here. */
+    if ( 'offline' != get_post_meta( $donation_id, 'donation_gateway', true ) ) {
+        return false;
+    }
+
+    /* All three of those checks passed, so proceed with sending the email. */
+    $email = new Charitable_Email_New_Donation( array( 
+        'donation' => new Charitable_Donation( $donation_id ) 
+    ) );
+
+    $email->send();
+
+    return true;
+}
+
+add_action( 'charitable_after_save_donation', 'en_send_donation_notification_for_pending_offline' );

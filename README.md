@@ -30,6 +30,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Treat Pending donations as "Approved" donations](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
 
+### Emails
+
+- [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
+
 ### Campaigns 
 
 - [Add featured image to the top of the campaign](https://github.com/Charitable/library/blob/master/campaigns/add-featured-image.php)

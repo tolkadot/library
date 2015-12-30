@@ -12,7 +12,7 @@ Alternatively, you could add the snippets directly to your theme or child theme'
 
 ## Contributing a snippet
 
-We welcome and encourage everyone to submit their code snippets. If you would like to submit your snippet, please [fork the repository](https://github.com/Charitable/library/fork) and then [https://github.com/Charitable/library/compare/](create a pull request).
+We welcome and encourage everyone to submit their code snippets. If you would like to submit your snippet, please [fork the repository](https://github.com/Charitable/library/fork) and then [create a pull request](https://github.com/Charitable/library/compare/).
 
 ## Directory
 

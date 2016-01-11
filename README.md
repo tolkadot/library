@@ -19,6 +19,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Donation form
 
 - [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
+- [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
 - [Collect National ID number](https://github.com/Charitable/library/blob/master/donation-form/collect-national-id-number.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 

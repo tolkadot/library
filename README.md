@@ -33,6 +33,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Emails
 
+- [Copy the donation receipt to the website admin](https://github.com/Charitable/library/blob/master/emails/copy-donation-receipt-to-admin.php)
 - [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
 
 ### Campaigns 

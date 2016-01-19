@@ -16,6 +16,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ## Directory
 
+### General
+
+- [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
+
 ### Donation form
 
 - [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)

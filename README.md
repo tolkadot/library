@@ -57,6 +57,10 @@ library/blob/master/emails/send-donation-notification-for-pending-offline-donati
 
 - [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
 
+### Registration form
+
+- [Send emails to the new user and admin after a user registers](https://github.com/Charitable/library/blob/master/registration-form/send-new-user-notifications.php)
+
 ### Styles
 
 - [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)

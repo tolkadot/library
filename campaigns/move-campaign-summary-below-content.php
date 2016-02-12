@@ -8,4 +8,4 @@ function en_move_campaign_summary_block() {
     add_action( 'charitable_campaign_content_after', 'charitable_template_campaign_summary', 2 );
 }
 
-add_action( 'plugins_loaded', 'en_move_campaign_summary_block' );
+add_action( 'after_setup_theme', 'en_move_campaign_summary_block', 11 );

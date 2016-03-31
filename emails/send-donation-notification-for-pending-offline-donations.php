@@ -32,7 +32,7 @@ function en_send_donation_notification_for_pending_offline( $donation_id ) {
         return false;
     }
 
-    $email->send();
+    $sent = $email->send();
 
     /* Log that the email was sent. */
     if ( apply_filters( 'charitable_log_email_send', true, Charitable_Email_New_Donation::get_email_id(), $email ) ) {

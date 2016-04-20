@@ -61,6 +61,10 @@ library/blob/master/emails/send-donation-notification-for-pending-offline-donati
 
 - [Send notification emails to the admin & new user when someone registers](https://github.com/Charitable/library/blob/master/notifications/send-notifications-on-user-registration.php) (credit: [altatof](https://github.com/altatof))
 
+### Login form
+
+- [Change the arguments passed to the login form (uses `wp_login_form()`)](https://github.com/Charitable/library/blob/master/login-form/change-login-form-arguments.php)
+
 ### Profile form
 
 - [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)

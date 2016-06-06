@@ -41,8 +41,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Emails
 
 - [Copy the donation receipt to the website admin](https://github.com/Charitable/library/blob/master/emails/copy-donation-receipt-to-admin.php)
-- [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/
-library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
+- [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
 - [Send donation receipt to customer for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-receipt-for-pending-offline-donations.php)
 - [Remove campaign name from donation summaries in emails](https://github.com/Charitable/library/blob/master/emails/remove-campaign-name-from-donation-summary.php)
 
@@ -84,6 +83,7 @@ library/blob/master/emails/send-donation-notification-for-pending-offline-donati
 
 *Campaign Form*
 
+- [Add description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-description-field.php)
 - [Remove all user fields except for the name & email fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-all-user-fields-except-for-basics.php)
 - [Automatically approve campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/auto-approve-campaigns.php)
 - [Allow ambassadors to edit the goal of an active campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/edit-live-campaign-goal.php)

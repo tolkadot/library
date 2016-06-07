@@ -28,6 +28,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Collect National ID number](https://github.com/Charitable/library/blob/master/donation-form/collect-national-id-number.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
+- [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
 
 ### Donation receipt
 

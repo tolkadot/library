@@ -38,6 +38,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Donations
 
 - [Treat Pending donations as "Approved" donations](https://github.com/Charitable/library/blob/master/donations/add-pending-to-approved-statuses.php)
+- [Automatically mark Offline donations as Paid](https://github.com/Charitable/library/blob/master/donations/auto-complete-offline-donations.php)
 
 ### Emails
 

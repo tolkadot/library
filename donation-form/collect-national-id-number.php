@@ -35,7 +35,7 @@
  * @return  array[]
  */
 function ed_collect_national_id_number( $fields, Charitable_Donation_Form $form ) {
-    $fields[ 'national_id_number' ] = array(
+    $fields['national_id_number'] = array(
         'label'     => __( 'National ID Number', 'your-namespace' ), 
         'type'      => 'text', 
         'priority'  => 24, 
@@ -57,9 +57,9 @@ add_filter( 'charitable_donation_form_user_fields', 'ed_collect_national_id_numb
  */
 function ed_show_national_id_number_in_admin( $meta, $donation ) {
     $donor_data = $donation->get_donor_data();
-    $meta[ 'national_id_number' ] = array(
+    $meta['national_id_number'] = array(
         'label'     => __( 'National ID Number', 'your-namespace' ),
-        'value'     => $donor_data[ 'national_id_number' ]
+        'value'     => $donor_data['national_id_number']
     );
     return $meta;
 }
@@ -99,10 +99,43 @@ add_filter( 'charitable_donation_admin_meta', 'ed_show_national_id_number_in_adm
 function ed_show_national_id_number_in_email( $value, $args, Charitable_Email $email ) {
     if ( $email->has_valid_donation() ) {
         $donor_data = $email->get_donation()->get_donor_data();
-        $value = $donor_data[ 'national_id_number' ];
+        $value = $donor_data['national_id_number'];
     }
 
     return $value;
 }
 
 add_filter( 'charitable_email_content_field_value_national_id_number', 'ed_show_national_id_number_in_email', 10, 3 );
+
+/**
+ * Include the National ID as a column in the Donations export.
+ *
+ * @param   array $columns
+ * @return  array
+ */
+function ed_donation_export_add_national_id_number_column( $columns ) {
+    $columns['national_id_number'] = __( 'National ID Number', 'your-namespace' );
+    return $columns;
+}
+
+add_filter( 'charitable_export_donations_columns', 'ed_donation_export_add_national_id_number_column' );
+
+/**
+ * Add the National ID Number value for donation.
+ * 
+ * @param   mixed  $value
+ * @param   string $key
+ * @param   array  $data
+ * @return  mixed
+ */
+function ed_donation_export_add_national_id_number_value( $value, $key, $data ) {
+    if ( 'national_id_number' != $key ) {
+        return $value;
+    }
+        
+    $donor_data = charitable_get_donation( $data['donation_id'] )->get_donor_data();
+    
+    return isset( $donor_data['national_id_number'] ) ? $donor_data['national_id_number'] : '';
+}
+
+add_filter( 'charitable_export_data_key_value', 'ed_donation_export_add_national_id_number_value', 10, 3 );

@@ -18,7 +18,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### General
 
-- [Unhook defalt Charitable template functions](https://github.com/Charitable/library/tree/master/general/unhook-default-charitable-template-functions.php)
+- [Unhook default Charitable template functions](https://github.com/Charitable/library/tree/master/general/unhook-default-charitable-template-functions.php)
+- [Remove form fields](https://github.com/Charitable/library/tree/master/general/remove-form-fields.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
 
 ### Donation form

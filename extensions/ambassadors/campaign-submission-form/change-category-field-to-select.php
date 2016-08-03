@@ -9,7 +9,7 @@
  * to select one category, the following code snippet shows how to do that.
  */
 
-function ed_change_taxonomy_field_to_select( $fields ) {
+function ed_change_taxonomy_fields_to_select( $fields ) {
 
 	$fields['campaign_tag']['type'] = 'select';
 	$fields['campaign_category']['type'] = 'select';

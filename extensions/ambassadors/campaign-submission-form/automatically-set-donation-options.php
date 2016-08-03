@@ -41,7 +41,6 @@ function en_set_suggested_donations( $submitted, $campaign_id ) {
     // Also set the custom donations to be permitted.
     update_post_meta( $campaign_id, '_campaign_allow_custom_donations', 1 );
 
-    return $meta;
 }
 
 add_action( 'charitable_campaign_submission_save', 'en_set_suggested_donations', 10, 2 );

@@ -83,6 +83,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)
 
+### Export 
+
+- [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
+
 ### Extensions: Charitable Ambassadors 
 
 *Campaign Form*

@@ -110,3 +110,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-user-details-to-funds-recipient-information.php)
 - [Automatically set the campaign parent for all submitted campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-parent.php)
 - [Change the PayPal payout details field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-payout-field.php)
+- [Redirect logged out users to the registration page](https://github.com/Charitable/library/blob/master/extensions/ambassadors/redirect-logged-out-users-to-registration-page.php)

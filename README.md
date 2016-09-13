@@ -89,6 +89,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
 
+### Payment Gateways: PayPal
+
+- [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
+
 ### Extensions: Charitable Ambassadors 
 
 *Campaign Form*

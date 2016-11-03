@@ -123,3 +123,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Themes: Reach
 
 - [Re-order the social network links](https://github.com/Charitable/library/blob/master/reach/reorder-social-network-links.php)
+- [Move the donate button on the campaign page](https://github.com/Charitable/library/blob/master/reach/move-donate-button-campaign-page.php)

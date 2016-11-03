@@ -3,6 +3,10 @@
 /**
  * This code snippet shows how to re-order the social network links that are displayed in the header.
  *
+ * You can drop this code snippet directly into the child theme's functions.php file.
+ *
+ * @see     demo.wpcharitable.com/reach/documentation/how-to-use-the-child-theme/
+ *
  * @param   array $networks
  * @return  array $networks
  */

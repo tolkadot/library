@@ -77,6 +77,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Profile form
 
 - [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
+- [Add a field to the "Your Details" section](https://github.com/Charitable/library/blob/master/profile-form/add-user-field.php)
 
 ### Registration form
 

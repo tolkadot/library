@@ -123,6 +123,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Automatically set the campaign parent for all submitted campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-parent.php)
 - [Change the PayPal payout details field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-payout-field.php)
 - [Redirect logged out users to the registration page](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-logged-out-users-to-registration-page.php)
+- [Only allow users to create one campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/only-allow-one-campaign-per-user.php)
 
 *My Campaigns Shortcode*
 - [Remove the "Actions" block (Edit Campaigns, Export Donors, etc.) from the campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/my-campaigns-shortcode/remove-campaign-actions-block.php)

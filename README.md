@@ -63,6 +63,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
 - [Remove the campaign descriptions from the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/remove-campaign-description.php)
 - [Add a Read More link to the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/add-read-more-link.php)
+- [Change the Thumbnail size in the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/set-campaign-thumbnail-size.php)
 - [Disable description text santization](https://github.com/Charitable/library/blob/master/campaigns/disable-description-text-sanitization.php)
 - [Round the percentage donated to a whole number](https://github.com/Charitable/library/blob/master/campaigns/round-percent-donated-to-whole-number.php)
 - [Change the campaign slug base](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-slug-base.php)

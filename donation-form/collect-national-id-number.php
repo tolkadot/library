@@ -35,6 +35,16 @@
  * @return  array[]
  */
 function ed_collect_national_id_number( $fields, Charitable_Donation_Form $form ) {
+
+    /**
+     * If you only want to collect a certain field on a certain campaign's 
+     * donation form, uncomment this next section and replace 1234 with the
+     * ID of your campaign.
+     */    
+    // if ( 1234 != $form->get_campaign()->ID ) {
+    //     return $fields;   
+    // }
+
     $fields['national_id_number'] = array(
         'label'     => __( 'National ID Number', 'your-namespace' ), 
         'type'      => 'text', 
@@ -56,10 +66,9 @@ add_filter( 'charitable_donation_form_user_fields', 'ed_collect_national_id_numb
  * @return  array[]
  */
 function ed_show_national_id_number_in_admin( $meta, $donation ) {
-    $donor_data = $donation->get_donor_data();
     $meta['national_id_number'] = array(
         'label'     => __( 'National ID Number', 'your-namespace' ),
-        'value'     => $donor_data['national_id_number']
+        'value'     => ed_donation_get_national_id_number( $donation );
     );
     return $meta;
 }
@@ -98,8 +107,7 @@ add_filter( 'charitable_donation_admin_meta', 'ed_show_national_id_number_in_adm
  */
 function ed_show_national_id_number_in_email( $value, $args, Charitable_Email $email ) {
     if ( $email->has_valid_donation() ) {
-        $donor_data = $email->get_donation()->get_donor_data();
-        $value = $donor_data['national_id_number'];
+        $value = ed_donation_get_national_id_number( $email->get_donation() );
     }
 
     return $value;
@@ -132,10 +140,24 @@ function ed_donation_export_add_national_id_number_value( $value, $key, $data ) 
     if ( 'national_id_number' != $key ) {
         return $value;
     }
-        
-    $donor_data = charitable_get_donation( $data['donation_id'] )->get_donor_data();
-    
-    return isset( $donor_data['national_id_number'] ) ? $donor_data['national_id_number'] : '';
+
+    return ed_donation_get_national_id_number( charitable_get_donation( $data['donation_id'] ) );
 }
 
 add_filter( 'charitable_export_data_key_value', 'ed_donation_export_add_national_id_number_value', 10, 3 );
+
+/**
+ * A helper function to get the National ID Number for a donation.
+ *
+ * @param   Charitable_Donation $donation
+ * @return  string
+ */
+function ed_donation_get_national_id_number( $donation ) {
+    $data = $donation->get_donor_data();
+
+    if ( array_key_exists( 'national_id_number', $data ) ) {
+        return $data['national_id_number'];
+    }
+
+    return '';
+}

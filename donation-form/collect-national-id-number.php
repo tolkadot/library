@@ -68,7 +68,7 @@ add_filter( 'charitable_donation_form_user_fields', 'ed_collect_national_id_numb
 function ed_show_national_id_number_in_admin( $meta, $donation ) {
     $meta['national_id_number'] = array(
         'label'     => __( 'National ID Number', 'your-namespace' ),
-        'value'     => ed_donation_get_national_id_number( $donation );
+        'value'     => ed_donation_get_national_id_number( $donation )
     );
     return $meta;
 }

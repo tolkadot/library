@@ -8,6 +8,11 @@
  */
 function ed_charitable_allow_one_campaign_per_user( $args ) {
 
+    /* Don't stop people editing existing campaigns. */
+    if ( get_query_var( 'campaign_id', false ) ) {
+        return;
+    }
+
     $user_id = get_current_user_id();
 
     if ( ! $user_id ) {

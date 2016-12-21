@@ -22,6 +22,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove form fields](https://github.com/Charitable/library/tree/master/general/remove-form-fields.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
+- [Add a Donate button with modal to your template](https://github.com/Charitable/library/tree/master/general/add-donate-button.php)
 
 ### Donation form
 

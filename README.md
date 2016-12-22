@@ -22,7 +22,6 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove form fields](https://github.com/Charitable/library/tree/master/general/remove-form-fields.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
-- [Add a Donate button with modal to your template](https://github.com/Charitable/library/tree/master/general/add-donate-button.php)
 
 ### Donation form
 
@@ -43,6 +42,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Treat Pending donations as "Approved" donations](https://github.com/Charitable/library/blob/master/donations/add-pending-to-approved-statuses.php)
 - [Automatically mark Offline donations as Paid](https://github.com/Charitable/library/blob/master/donations/auto-complete-offline-donations.php)
+- [Add a Donate button with modal to your template](https://github.com/Charitable/library/tree/master/donations/add-donate-button.php)
 
 ### Emails
 

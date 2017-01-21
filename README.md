@@ -32,6 +32,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
+- [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
 
 ### Donation receipt
 

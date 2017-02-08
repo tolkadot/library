@@ -139,6 +139,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 *My Campaigns Shortcode*
 - [Remove the "Actions" block (Edit Campaigns, Export Donors, etc.) from the campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/my-campaigns-shortcode/remove-campaign-actions-block.php)
 
+### Extensions: Charitable Easy Digital Downloads Connect
+
+- [Add {campaign_donations} email tag](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
+
 ### Themes: Reach
 
 - [Re-order the social network links](https://github.com/Charitable/library/blob/master/reach/reorder-social-network-links.php)

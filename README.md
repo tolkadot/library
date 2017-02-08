@@ -104,6 +104,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
 
+### Payment Gateways: Stripe
+
+- [Set a custom statement descriptor](https://github.com/Charitable/library/blob/master/gateways/stripe/set-statement-descriptor.php)
+
 ### Extensions: Charitable Ambassadors 
 
 *Campaign Form*

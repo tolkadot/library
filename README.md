@@ -66,6 +66,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a progress bar before the campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/add-progress-bar-before-summary.php)
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
 - [Remove the campaign descriptions from the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/remove-campaign-description.php)
+- [Add a custom field to the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/add-custom-field.php)
 - [Add a Read More link to the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/add-read-more-link.php)
 - [Change the Thumbnail size in the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/set-campaign-thumbnail-size.php)
 - [Disable description text santization](https://github.com/Charitable/library/blob/master/campaigns/disable-description-text-sanitization.php)

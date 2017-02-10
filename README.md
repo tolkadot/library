@@ -40,6 +40,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Display a link back to the campaign from the donation receipt](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-link.php)
 - [Display a summary of the amount raised for the campaign](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
+- [Set a custom donation receipt page](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page.php)
 
 ### Donations
 

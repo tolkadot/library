@@ -110,6 +110,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Set a custom statement descriptor](https://github.com/Charitable/library/blob/master/gateways/stripe/set-statement-descriptor.php)
 
+### Payment Gateways: PayUMoney
+
+- [Modify the arguments sent to PayUMoney](https://github.com/Charitable/library/blob/master/gateways/payumoney/modify-payment-args.php)
+
 ### Extensions: Charitable Ambassadors 
 
 *Campaign Form*

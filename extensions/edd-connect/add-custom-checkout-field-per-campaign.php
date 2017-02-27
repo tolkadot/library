@@ -37,7 +37,7 @@ function ed_charitable_includes_donation_to_campaign( $campaign_id ) {
 function sumobi_edd_display_checkout_fields() {
 
     /* If this cart does not include a donation to campaign with ID 123, don't add the field. */
-    if ( ! ed_charitable_includes_donation_to_campaign( 723 ) ) {
+    if ( ! ed_charitable_includes_donation_to_campaign( 123 ) ) {
         return;
     }
 ?>
@@ -61,7 +61,7 @@ add_action( 'edd_purchase_form_user_info_fields', 'sumobi_edd_display_checkout_f
 function sumobi_edd_required_checkout_fields( $required_fields ) {
     
     /* If this cart does not include a donation to campaign with ID 123, don't add the field. */
-    if ( ! ed_charitable_includes_donation_to_campaign( 723 ) ) {
+    if ( ! ed_charitable_includes_donation_to_campaign( 123 ) ) {
         return $required_fields;
     }
   
@@ -83,7 +83,7 @@ add_filter( 'edd_purchase_form_required_fields', 'sumobi_edd_required_checkout_f
 function sumobi_edd_validate_checkout_fields( $valid_data, $data ) {
 
     /* If this cart does not include a donation to campaign with ID 123, don't add the field. */
-    if ( ! ed_charitable_includes_donation_to_campaign( 723 ) ) {
+    if ( ! ed_charitable_includes_donation_to_campaign( 123 ) ) {
         return;
     }
   

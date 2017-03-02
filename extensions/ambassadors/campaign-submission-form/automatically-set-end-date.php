@@ -22,7 +22,7 @@ add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_rem
  */
 function ed_charitable_set_campaign_end_date( $submitted, $campaign_id ) {
 
-    $end_date = '2017-08-01';
+    $end_date = '2017-08-01 00:00:00';
 
     update_post_meta( $campaign_id, '_campaign_end_date', $end_date );
 

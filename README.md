@@ -118,6 +118,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 *Campaign Form*
 
+- [Add select field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-select-field.php)
 - [Add description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-description-field.php)
 - [Remove all user fields except for the name & email fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-all-user-fields-except-for-basics.php)
 - [Automatically approve campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/auto-approve-campaigns.php)

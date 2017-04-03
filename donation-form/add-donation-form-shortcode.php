@@ -22,3 +22,5 @@ function ed_charitable_donation_form_shortcode( $args ) {
 
     return ob_get_clean();
 }
+
+add_shortcode( 'charitable_donation_form', 'ed_charitable_donation_form_shortcode' );

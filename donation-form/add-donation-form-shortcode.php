@@ -18,6 +18,10 @@ function ed_charitable_donation_form_shortcode( $args ) {
 
     ob_start();
 
+    if ( ! wp_script_is( 'charitable-script', 'enqueued' ) ) {
+        Charitable_Public::get_instance()->enqueue_donation_form_scripts();
+    }    
+
     charitable_get_campaign( $args['campaign'] )->get_donation_form()->render();
 
     return ob_get_clean();

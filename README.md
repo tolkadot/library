@@ -56,7 +56,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Send donation receipt to customer for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-receipt-for-pending-offline-donations.php)
 - [Remove campaign name from donation summaries in emails](https://github.com/Charitable/library/blob/master/emails/remove-campaign-name-from-donation-summary.php)
 - [Add a custom campaign field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-campaign-field.php)
-- [Add a custom donation field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-donation-field.php)
+- [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
 
 ### Campaigns 
 

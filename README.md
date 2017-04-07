@@ -152,7 +152,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the "Actions" block (Edit Campaigns, Export Donors, etc.) from the campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/my-campaigns-shortcode/remove-campaign-actions-block.php)
 
 *Emails*
-- [Send the Campaign Creator Donation Notification for Offline donations when they're pending](send-creator-donation-notification-for-pending-offline-donations.php)
+- [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)
 
 ### Extensions: Charitable Easy Digital Downloads Connect
 

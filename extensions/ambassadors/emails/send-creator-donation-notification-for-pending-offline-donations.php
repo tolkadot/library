@@ -63,11 +63,11 @@ function en_charitable_send_creator_donation_notification_for_pending_offline( $
         /**
          * Log that the email was sent.
          */
-        if ( apply_filters( 'charitable_log_email_send', true, self::get_email_id(), $email ) ) {
+        if ( apply_filters( 'charitable_log_email_send', true, Charitable_Ambassadors_Email_Creator_Donation_Notification::get_email_id(), $email ) ) {
             $email->log( $donation_id, $sent );
         }
     }
-    
+
     return true;
 }
 

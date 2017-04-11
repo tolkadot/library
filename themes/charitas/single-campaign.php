@@ -14,10 +14,10 @@
  * @subpackage Charitas Lite
  * @since Charitas Lite 1.0
  */
-?>
 
-<?php get_header(); ?>
-<?php while ( have_posts() ) : the_post(); // start of the loop.?>
+get_header(); 
+
+while ( have_posts() ) : the_post(); // start of the loop.?>
 
     <div class="item teaser-page-list">
     
@@ -34,7 +34,7 @@
 
                 ?>
             </aside>
-            <?php if ( ot_get_option('charitas_breadcrumbs') != "off") { ?>
+            <?php if ( function_exists( 'charitas_breadcrumbs' ) && ot_get_option( 'charitas_breadcrumbs' ) != "off" ) { ?>
                 <div class="grid_6">
                     <div id="rootline">
                         <?php charitas_breadcrumbs(); ?>    

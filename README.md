@@ -36,6 +36,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
 - [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/add-donation-form-shortcode.php)
+- [Mover donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
 
 ### Donation receipt
 

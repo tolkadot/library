@@ -160,6 +160,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add {campaign_donations} email tag](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
 - [Add a custom checkout field for specific campaigns](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
 
+### Extensions: Charitable Recurring Donations
+
+- [Change the recurring period to weekly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-weekly.php)
+
 ### Themes: Reach
 
 - [Add the donate button to campaigns in a grid](https://github.com/Charitable/library/blob/master/themes/reach/add-donate-button-to-campaign-loop.php)

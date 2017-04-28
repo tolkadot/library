@@ -163,6 +163,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Extensions: Charitable Recurring Donations
 
 - [Change the recurring period to weekly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-weekly.php)
+- [Set a fixed recurring donation amount](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-fixed-recurring-donation-amount.php)
 
 ### Themes: Reach
 

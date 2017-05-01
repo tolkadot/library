@@ -20,6 +20,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Unhook default Charitable template functions](https://github.com/Charitable/library/tree/master/general/unhook-default-charitable-template-functions.php)
 - [Remove form fields](https://github.com/Charitable/library/tree/master/general/remove-form-fields.php)
+- [Change whether a form field is required](https://github.com/Charitable/library/tree/master/general/make-form-fields-required-not-required.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
 

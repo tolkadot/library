@@ -19,10 +19,16 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### General
 
 - [Unhook default Charitable template functions](https://github.com/Charitable/library/tree/master/general/unhook-default-charitable-template-functions.php)
-- [Remove form fields](https://github.com/Charitable/library/tree/master/general/remove-form-fields.php)
-- [Change whether a form field is required](https://github.com/Charitable/library/tree/master/general/make-form-fields-required-not-required.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
+
+### Editing Forms
+
+- [Remove form fields](https://github.com/Charitable/library/tree/master/forms/general/remove-form-fields.php)
+- [Change whether a form field is required](https://github.com/Charitable/library/tree/master/forms/general/make-form-fields-required-not-required.php)
+- [Add HTML before form fields](https://github.com/Charitable/library/tree/master/forms/general/add-html-before-form-fields.php)
+- [Add HTML after form fields](https://github.com/Charitable/library/tree/master/forms/general/add-html-after-form-fields.php)
+- [Add a description/paragraph field to a form](https://github.com/Charitable/library/tree/master/forms/general/add-description-field.php)
 
 ### Donation form
 
@@ -123,7 +129,6 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 *Campaign Form*
 
 - [Add select field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-select-field.php)
-- [Add description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-description-field.php)
 - [Remove all user fields except for the name & email fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-all-user-fields-except-for-basics.php)
 - [Automatically approve campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/auto-approve-campaigns.php)
 - [Allow ambassadors to edit the goal of an active campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/edit-live-campaign-goal.php)

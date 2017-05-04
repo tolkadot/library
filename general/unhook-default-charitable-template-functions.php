@@ -10,6 +10,10 @@
  * You can find all of the template hooks defined in Charitable in 
  * charitable/includes/public/charitable-template-hooks.php
  *
+ * View them online at:
+ *
+ * https://github.com/Charitable/Charitable/blob/stable/includes/public/charitable-template-hooks.php
+ *
  * Hooks are all defined using an `add_action()` or `add_filter()` function. 
  * To unhook a particular action/filter, copy and paste the entire line into
  * the function body below, and replace 'add' with 'remove'. See the example

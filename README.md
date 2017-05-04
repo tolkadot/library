@@ -173,6 +173,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Themes: Reach
 
+- [Unhook a template](https://github.com/Charitable/library/blob/master/themes/reach/remove-reach-hooks.php)
 - [Add the donate button to campaigns in a grid](https://github.com/Charitable/library/blob/master/themes/reach/add-donate-button-to-campaign-loop.php)
 - [Re-order the social network links](https://github.com/Charitable/library/blob/master/themes/reach/reorder-social-network-links.php)
 - [Move the donate button on the campaign page](https://github.com/Charitable/library/blob/master/themes/reach/move-donate-button-campaign-page.php)

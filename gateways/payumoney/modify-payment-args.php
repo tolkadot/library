@@ -38,7 +38,7 @@ function ed_charitable_change_payumoney_redirect_args( $args, Charitable_Donatio
      * For example, let's add a 8% surcharge to the amount as an additional fee 
      * for donors.
      */
-    $args['amount'] = charitable_sanitize_amount( $args['amount'] * 1.08 );
+    $args['amount'] = charitable_sanitize_amount( (string) ( $args['amount'] * 1.08 ) );
 
     return $args;
 

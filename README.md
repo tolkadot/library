@@ -74,6 +74,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/remove-stats-summary-block.php)
 - [Remove campaign summary block from a specific campaign](https://github.com/Charitable/library/blob/master/campaigns/remove-stats-summary-block-from-specific-campaign.php)
 - [Remove the donor count](https://github.com/Charitable/library/blob/master/general/unhook-default-charitable-template-functions.php)
+- [Remove the donor count from a specific campaign](https://github.com/Charitable/library/blob/master/campaigns/remove-donor-count-from-specific-campaign.php)
 - [Add a progress bar before the campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/add-progress-bar-before-summary.php)
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
 - [Remove the campaign descriptions from the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/remove-campaign-description.php)

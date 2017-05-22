@@ -25,6 +25,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Editing Forms
 
 - [Remove form fields](https://github.com/Charitable/library/tree/master/forms/general/remove-form-fields.php)
+- [Change form fields](https://github.com/Charitable/library/tree/master/forms/general/change-form-fields.php)
 - [Change the labels of form fields](https://github.com/Charitable/library/tree/master/forms/general/change-form-field-labels.php)
 - [Change whether a form field is required](https://github.com/Charitable/library/tree/master/forms/general/make-form-fields-required-not-required.php)
 - [Add HTML before form fields](https://github.com/Charitable/library/tree/master/forms/general/add-html-before-form-fields.php)

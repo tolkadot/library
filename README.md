@@ -119,6 +119,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Payment Gateways: PayPal
 
 - [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
+- [Set a custom item name for donations in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-custom-item-name.php)
 
 ### Payment Gateways: Stripe
 

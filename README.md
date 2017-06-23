@@ -46,7 +46,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
 - [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/add-donation-form-shortcode.php)
-- [Mover donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
+- [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
+- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
 
 ### Donation receipt
 
@@ -122,6 +123,14 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
 - [Set a custom item name for donations in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-custom-item-name.php)
+
+### Payment Gateways: Offline
+
+- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
+- [Set a custom donation receipt page for offline donations](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page-for-offline-donations.php)
+- [Automatically mark Offline donations as Paid](https://github.com/Charitable/library/blob/master/donations/auto-complete-offline-donations.php)
+- [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)
+- [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
 
 ### Payment Gateways: Stripe
 

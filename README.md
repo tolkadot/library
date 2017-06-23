@@ -126,7 +126,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Payment Gateways: Offline
 
-- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
+- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/offline/add-offline-instructions-to-donation-form.php)
 - [Set a custom donation receipt page for offline donations](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page-for-offline-donations.php)
 - [Automatically mark Offline donations as Paid](https://github.com/Charitable/library/blob/master/donations/auto-complete-offline-donations.php)
 - [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)

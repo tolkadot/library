@@ -20,9 +20,15 @@ function ed_charitable_donation_form_shortcode( $args ) {
 
     if ( ! wp_script_is( 'charitable-script', 'enqueued' ) ) {
         Charitable_Public::get_instance()->enqueue_donation_form_scripts();
-    }    
+    }
+    
+    $form = charitable_get_campaign( $args['campaign'] )->get_donation_form();
 
-    charitable_get_campaign( $args['campaign'] )->get_donation_form()->render();
+    do_action( 'charitable_donation_form_before', $form );
+    
+    $form->render();
+    
+    do_action( 'charitable_donation_form_after', $form );
 
     return ob_get_clean();
 }

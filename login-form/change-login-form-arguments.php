@@ -1,5 +1,4 @@
 <?php 
-
 /**
  * The `charitable_login_form_args` filter allows you to set 
  * the arguments that are passed to wp_login_form().

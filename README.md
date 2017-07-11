@@ -100,6 +100,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Login form
 
 - [Change the arguments passed to the login form (uses `wp_login_form()`)](https://github.com/Charitable/library/blob/master/login-form/change-login-form-arguments.php)
+- [Redirect to the previous page after logging in](https://github.com/Charitable/library/blob/master/login-form/redirect-to-referer-after-login.php)
 
 ### Profile form
 

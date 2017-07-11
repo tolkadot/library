@@ -174,6 +174,9 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 
+*Campaigns*
+- [Remove the "Edit" link added by some themes](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaigns/remove-edit-post-link-from-campaigns.php)
+
 *My Campaigns Shortcode*
 - [Remove the "Actions" block (Edit Campaigns, Export Donors, etc.) from the campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/my-campaigns-shortcode/remove-campaign-actions-block.php)
 

@@ -43,6 +43,22 @@ function ed_charitable_add_campaign_gallery_field( $fields, $form ) {
 add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_add_campaign_gallery_field', 11, 2 );
 
 /**
+ * Set the gallery to empty if all images are removed.
+ *
+ * @param   array $submitted The values submitted by ther user.
+ * @return  array
+ */
+function ed_charitable_save_campaign_gallery( $submitted, $campaign_id, $meta_fields ) {
+    if ( ! array_key_exists( 'gallery', $submitted ) ) {
+        $submitted['gallery'] = '';
+    }
+
+    return $submitted;
+}
+
+add_filter( 'charitable_campaign_submission_meta_data', 'ed_charitable_save_campaign_gallery' );
+
+/**
  * Append the gallery to the campaign page.
  *
  * @param   string $content

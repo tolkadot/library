@@ -1,5 +1,4 @@
 <?php
-
 /**
  * By default, the campaign category and tag fields in Charitable Ambassadors
  * are set up as a multi-checkbox field. This allows people to select
@@ -10,11 +9,14 @@
  */
 
 function ed_change_taxonomy_fields_to_select( $fields ) {
-
 	$fields['campaign_tag']['type'] = 'select';
 	$fields['campaign_category']['type'] = 'select';
-	return $fields;
 
+	// If you would like to add an intial option that isn't a tag/category, uncomment this:
+	// $fields['campaign_tag']['options'] = array( '' => 'Select tag' ) + $fields['campaign_tag']['options'];
+	// $fields['campaign_category']['options'] = array( '' => 'Select category' ) + $fields['campaign_category']['options'];
+
+	return $fields;
 }
 
 add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_change_taxonomy_fields_to_select' );
@@ -25,7 +27,6 @@ add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_change_taxonom
  * In Ambassadors 1.2, this is no longer required.
  */
 function ed_save_taxonomy_field_value_as_array( $submitted ) {
-
 	if ( isset( $submitted['campaign_category'] ) && ! is_array( $submitted['campaign_category'] ) ) {
 		$submitted['campaign_category'] = array( $submitted['campaign_category'] );
 	}
@@ -35,7 +36,6 @@ function ed_save_taxonomy_field_value_as_array( $submitted ) {
 	}
 
 	return $submitted;
-
 }
 
 add_filter( 'charitable_campaign_submission_taxonomy_data', 'ed_save_taxonomy_field_value_as_array' );

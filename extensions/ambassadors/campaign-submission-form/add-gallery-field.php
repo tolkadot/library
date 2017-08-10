@@ -56,7 +56,7 @@ function ed_charitable_save_campaign_gallery( $submitted, $campaign_id, $meta_fi
     return $submitted;
 }
 
-add_filter( 'charitable_campaign_submission_meta_data', 'ed_charitable_save_campaign_gallery' );
+add_filter( 'charitable_campaign_submission_meta_data', 'ed_charitable_save_campaign_gallery', 10, 3 );
 
 /**
  * Append the gallery to the campaign page.

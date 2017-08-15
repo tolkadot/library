@@ -1,4 +1,15 @@
 <?php
+/**
+ * If you want all campaign thumbnails to have the same size, you can use the
+ * snippet below. Note that images will be hard-cropped, so part of the image
+ * may be cropped out.
+ *
+ * If you have already upload photos to your site, adding the script below
+ * will not automatically work. You may also need to regenerate all the thumbnails
+ * for the images on your site. For that, use the following plugin:
+ *
+ * https://wordpress.org/plugins/regenerate-thumbnails/
+ */
 
 /**
  * Register the new image size.

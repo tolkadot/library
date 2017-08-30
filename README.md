@@ -177,6 +177,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Only allow users to create one campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/only-allow-one-campaign-per-user.php)
 - [Prevent users from editing a published campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/prevent-editing-of-published-campaigns.php)
 - [Add a "Gallery" field to the campaign form and display the gallery on the campaign automatically](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-gallery-field.php)
+- [Add a "Terms and Conditions" section to the campaign form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-terms-field.php)
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 

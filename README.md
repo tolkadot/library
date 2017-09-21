@@ -213,3 +213,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Themes: 3rd Party Themes
 
 - [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)
+- [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)

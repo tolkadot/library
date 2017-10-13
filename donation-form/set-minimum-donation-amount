@@ -3,6 +3,8 @@
 /**
  * This example shows how to add set the minimum donation amount.
  *
+ * This snippet is relevant for Charitable 1.5+
+ *
  * Note that for any amount over 0, the minimum must be met or exceeded.
  * i.e. In the example below, a $2 donation will be considered valid.
  * When the minimum is 0 (the default), the minimum must be exceeded. i.e. A $0 is not valid.

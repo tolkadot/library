@@ -20,6 +20,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Unhook default Charitable template functions](https://github.com/Charitable/library/tree/master/general/unhook-default-charitable-template-functions.php)
 - [Add an "Hours" currency](https://github.com/Charitable/library/blob/master/general/add-hours-currency.php)
+- [Add a new currency, with a currency symbol](https://github.com/Charitable/library/blob/master/general/add-currency.php)
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
 
 ### Editing Forms

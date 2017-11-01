@@ -28,6 +28,15 @@ add_filter( 'charitable_currencies', 'ed_charitable_add_currency' );
  * @return string
  */
 function ed_charitable_set_currency_symbol( $symbol, $currency ) {
+    /**
+     * The currency's symbol should be provided as a HTML
+     * string, including HTML character codes like the below.
+     *
+     * Note that not all browsers/fonts support all HTML
+     * character codes, so if you want to use a particular
+     * currency code on your website, be sure to use a font
+     * that supports that character.
+     */
     if ( 'AMD' == $currency ) {
         $symbol = '&#1423;';
     }

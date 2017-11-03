@@ -35,6 +35,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Donation form
 
+- [Add a new donation field to the donation form (Charitable 1.5+)](https://github.com/Charitable/library/blob/master/donation-form/register-new-donation-field-1.5.php)
 - [Add a checkbox field to the donation form](https://github.com/Charitable/library/blob/master/donation-form/add-checkbox-field-to-donation-form.php)
 - [Add a select field to the donation form](https://github.com/Charitable/library/blob/master/donation-form/add-select-field-to-donation-form.php)
 - [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)

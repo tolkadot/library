@@ -78,7 +78,7 @@ function ed_charitable_register_new_donation_field() {
     /**
      * And finally, we register it.
      */
-    charitable()->donation_fields()->register( $field );
+    charitable()->donation_fields()->register_field( $field );
 }
 
 add_action( 'init', 'ed_charitable_register_new_donation_field' );

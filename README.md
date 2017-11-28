@@ -124,6 +124,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Export 
 
+- [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
 
 ### Payment Gateways: PayPal

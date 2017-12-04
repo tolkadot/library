@@ -203,6 +203,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Extensions: Charitable Recurring Donations
 
 - [Change the recurring period to weekly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-weekly.php)
+- [Change the recurring period to yearly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-yearly.php)
 - [Set a fixed recurring donation amount](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-fixed-recurring-donation-amount.php)
 - [Do not send recurring emails for pending donations unless they are offline](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-recurring-emails-for-pending-donations.php)
 

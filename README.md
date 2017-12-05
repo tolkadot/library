@@ -36,20 +36,25 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Donation form
 
-- [Add a new donation field to the donation form (Charitable 1.5+)](https://github.com/Charitable/library/blob/master/donation-form/register-new-donation-field-1.5.php)
-- [Add a checkbox field to the donation form](https://github.com/Charitable/library/blob/master/donation-form/add-checkbox-field-to-donation-form.php)
-- [Add a select field to the donation form](https://github.com/Charitable/library/blob/master/donation-form/add-select-field-to-donation-form.php)
-- [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
+#### Registering new fields (examples for charitable 1.5+)
+
+- [Adding a text field (detailed example)](https://github.com/Charitable/library/blob/master/donation-form/register-new-donation-field-1.5.php)
+- [Adding a text field (condensed example)](https://github.com/Charitable/library/blob/master/donation-form/collect-national-id-number.php)
+- [Adding a checkbox field](https://github.com/Charitable/library/blob/master/donation-form/add-checkbox-field-to-donation-form.php)
+- [Adding a select field](https://github.com/Charitable/library/blob/master/donation-form/add-select-field-to-donation-form.php)
+- [Adding multiple fields at once](https://github.com/Charitable/library/blob/master/donation-form/register-multiple-donation-fields.php)
+
+#### Changing fields & other
+
 - [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
-- [Collect National ID number](https://github.com/Charitable/library/blob/master/donation-form/collect-national-id-number.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-minimum-donation-amount.php)
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
-- [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/add-donation-form-shortcode.php)
 - [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
+- [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
 - [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
 
 ### Donation receipt
@@ -221,3 +226,12 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)
+
+### Legacy snippets
+
+#### Pre Charitable 1-5
+
+- [Adding a text field (condensed example)](https://github.com/Charitable/library/blob/master/donation-form/legacy/collect-national-id-number.php)
+- [Adding a checkbox field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-checkbox-field-to-donation-form.php)
+- [Adding a select field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-select-field-to-donation-form.php)
+- [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-donation-form-shortcode.php)

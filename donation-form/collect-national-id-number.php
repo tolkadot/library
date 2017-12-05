@@ -3,7 +3,7 @@
  * Add a text field to the donation form.
  *
  * This field is added to the donor details section (by default, this is the section
- * with a header of "Your Details"). In the example below, we add a field that collects 
+ * with a header of "Your Details"). In the example below, we add a field that collects
  * the donor's national ID number, but you can adapt this to your own needs by making
  * the following changes:
  *

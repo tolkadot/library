@@ -9,15 +9,20 @@ function ed_charitable_set_recurring_period_to_year( $values ) {
     if ( array_key_exists( 'donation_period', $values ) ) {
         $values['donation_period'] = 'year';
     }
+
     if ( ! array_key_exists( 'campaigns', $values ) ) {
         return $values;
     }
+
     if ( array_key_exists( 'donation_period', $values['campaigns'][0] ) ) {
         $values['campaigns'][0]['donation_period'] = 'year';
     }
+
     return $values;
 }
+
 add_filter( 'charitable_donation_values', 'ed_charitable_set_recurring_period_to_year' );
+
 /**
  * This changes the text in the donation form and admin to refer to yearly donations. 
  *
@@ -30,6 +35,7 @@ function ed_charitable_change_monthly_to_yearly( $translation, $text, $domain ) 
     if ( 'charitable-recurring' != $domain ) {
         return $translation;
     }
+
     switch ( $translation ) {
         case 'month' : 
             $translation = 'year';
@@ -51,11 +57,17 @@ function ed_charitable_change_monthly_to_yearly( $translation, $text, $domain ) 
             break;
         case 'Monthly Donation' : 
             $translation = 'Yearly Donation';
-            break;   
+            break;
+        case 'Monthly' :
+            $translation = 'Annually';
+            break;
     }
+
     return $translation;
 }
+
 add_filter( 'gettext', 'ed_charitable_change_monthly_to_yearly', 10, 3 );
+
 /**
  * Change the recurring periods text.
  *
@@ -68,4 +80,5 @@ function ed_charitable_change_recurring_periods_text( $periods ) {
     $periods['month'] = $periods['year'];
     return $periods;
 }
+
 add_filter( 'charitable_recurring_periods', 'ed_charitable_change_recurring_periods_text' );

@@ -4,6 +4,13 @@
  * donation fields has become much simpler. The old way
  * will still work, but it's more cumbersome and requires
  * much more code for the same effect.
+ *
+ * Related examples:
+ *
+ * @see Register a text field (simple example) - https://github.com/Charitable/library/blob/master/donation-form/collect-national-id-number.php
+ * @see Register a checkbox field - https://github.com/Charitable/library/blob/master/donation-form/add-checkbox-field-to-donation-form.php
+ * @see Register multiple fields - https://github.com/Charitable/library/blob/master/donation-form/register-multiple-donation-fields.php
+ * @see The old way to add fields - https://github.com/Charitable/library/blob/master/donation-form/legacy/collect-national-id-number.php
  */
 function ed_charitable_register_new_donation_field() {
     $field_args = array();

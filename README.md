@@ -132,13 +132,15 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
 
-### Payment Gateways: PayPal
+### Payment Gateways
+
+#### PayPal
 
 - [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
 - [Set a custom item name for donations in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-custom-item-name.php)
 - [Set the locale in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-locale.php)
 
-### Payment Gateways: Offline
+#### Offline
 
 - [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/offline/add-offline-instructions-to-donation-form.php)
 - [Set a custom donation receipt page for offline donations](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page-for-offline-donations.php)
@@ -146,17 +148,19 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)
 - [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
 
-### Payment Gateways: Stripe
+#### Stripe
 
 - [Set a custom statement descriptor](https://github.com/Charitable/library/blob/master/gateways/stripe/set-statement-descriptor.php)
 
-### Payment Gateways: PayUMoney
+#### PayUMoney
 
 - [Modify the arguments sent to PayUMoney](https://github.com/Charitable/library/blob/master/gateways/payumoney/modify-payment-args.php)
 
-### Extensions: Charitable Ambassadors 
+### Extensions: 
 
-*Campaign Form*
+#### Charitable Ambassadors 
+
+##### Campaign Form
 
 - [Add select field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-select-field.php)
 - [Remove all user fields except for the name & email fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-all-user-fields-except-for-basics.php)
@@ -177,6 +181,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change field labels](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-labels.php)
 - [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-editable.php)
 - [Remove the campaign length field and replace with an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
+- [Add start date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-start-date-field.php)
 - [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-user-details-to-funds-recipient-information.php)
 - [Automatically set the Suggested Donations and custom donation settings](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/automatically-set-donation-options.php)
 - [Automatically set the campaign parent for all submitted campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-parent.php)
@@ -190,29 +195,33 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 
-*Campaigns*
+##### Campaigns
+
 - [Remove the "Edit" link added by some themes](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaigns/remove-edit-post-link-from-campaigns.php)
 
-*My Campaigns Shortcode*
+##### My Campaigns Shortcode
+
 - [Remove the "Actions" block (Edit Campaigns, Export Donors, etc.) from the campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/my-campaigns-shortcode/remove-campaign-actions-block.php)
 
-*Emails*
+##### Emails
 - [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)
 
-### Extensions: Charitable Easy Digital Downloads Connect
+#### Charitable Easy Digital Downloads Connect
 
 - [Add {campaign_donations} email tag](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
 - [Add a custom checkout field for specific campaigns](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
 - [Show the Easy Digital Downloads gateway used for donations](https://github.com/Charitable/library/blob/master/extensions/edd-connect/set-gateway-label.php)
 
-### Extensions: Charitable Recurring Donations
+#### Charitable Recurring Donations
 
 - [Change the recurring period to weekly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-weekly.php)
 - [Change the recurring period to yearly](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/change-recurring-period-to-yearly.php)
 - [Set a fixed recurring donation amount](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-fixed-recurring-donation-amount.php)
 - [Do not send recurring emails for pending donations unless they are offline](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-recurring-emails-for-pending-donations.php)
 
-### Themes: Reach
+### Themes
+
+#### Reach
 
 - [Unhook a template](https://github.com/Charitable/library/blob/master/themes/reach/remove-reach-hooks.php)
 - [Add the donate button to campaigns in a grid](https://github.com/Charitable/library/blob/master/themes/reach/add-donate-button-to-campaign-loop.php)
@@ -222,7 +231,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the donation page title](https://github.com/Charitable/library/blob/master/themes/reach/change-donation-page-title.php)
 - [Prevent the donation receipt from loading in the user dashboard](https://github.com/Charitable/library/blob/master/themes/reach/do-not-load-receipt-in-user-dashboard.php)
 
-### Themes: 3rd Party Themes
+#### 3rd Party Themes
 
 - [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)

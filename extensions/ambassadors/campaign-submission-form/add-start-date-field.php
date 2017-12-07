@@ -6,15 +6,23 @@
  * begin.
  */
 function ed_charitable_add_start_date_field( $fields, $form ) {
+    if ( isset( $_POST['post_date'] ) ) {
+        $value = $_POST['post_date'];
+    } elseif ( $form->get_campaign() ) {
+        $value = $form->get_campaign->post_date;
+    } else {
+        $value = '';
+    }
+
     $fields['post_date'] = array(
-        'label'       => null, 
+        'label'       => 'Start Date',
         'type'        => 'datepicker',
         'priority'    => 8, 
         'required'    => true, 
-        'value'       => $fields['post_date']['value'], 
+        'value'       => $value,
         'data_type'   => 'core',
         'editable'    => false,
-        'placeholder' => 'Start Date'
+        'placeholder' => 'Start Date',
     );
     
     return $fields;

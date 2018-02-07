@@ -25,7 +25,7 @@ function en_set_suggested_donations( $submitted, $campaign_id ) {
     // Each donation amount is an array with an amount and description.
     update_post_meta( $campaign_id, '_campaign_suggested_donations', array(
         array(
-            'amount' => 12, 
+            'amount' => 12,
             'description' => __( 'Small', 'your-namespace' )
         ), 
         array(

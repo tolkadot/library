@@ -51,6 +51,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-minimum-donation-amount.php)
+- [Allow people to make $0 "donations"](https://github.com/Charitable/library/blob/master/donation-form/allow-zero-dollar-donations.php)
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
 - [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
@@ -246,3 +247,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Adding a checkbox field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-checkbox-field-to-donation-form.php)
 - [Adding a select field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-select-field-to-donation-form.php)
 - [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-donation-form-shortcode.php)
+- [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/legacy/set-minimum-donation-amount.php)

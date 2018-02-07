@@ -15,4 +15,3 @@ function ed_charitable_set_max_length_on_description( $fields ) {
 }
 
 add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_set_max_length_on_description' );
-

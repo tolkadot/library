@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Set the minimum donation amount required.
  *

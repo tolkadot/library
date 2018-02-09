@@ -175,6 +175,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the short description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-short-description-field.php)
 - [Remove the user biography field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-user-biography-field.php)
 - [Set default campaign name](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-name.php)
+- [Set default campaign goal](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-goal.php)
 - [Set default text for full description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-text-for-description-field.php)
 - [Set default country for Ambassadors](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-ambassador-country.php)
 - [Set the default category for new campaign submissions](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-category.php)

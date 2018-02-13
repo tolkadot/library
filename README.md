@@ -241,7 +241,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)
-
+- [Born to Give - Campaign page (remove donation stats, goal & time remaining)](https://github.com/Charitable/library/blob/master/themes/born-to-give/single-campaign.php)
 ### Legacy snippets
 
 #### Pre Charitable 1-5

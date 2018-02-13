@@ -6,7 +6,7 @@
  *
  * Save this template to your theme or child theme folder as single-campaign.php.
  * We strongly recommend using a child theme so that you will not lose this
- * template every time you update Charitas.
+ * template every time you update Born to Give.
  */
 
 get_header();

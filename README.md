@@ -224,6 +224,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set a fixed recurring donation amount](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-fixed-recurring-donation-amount.php)
 - [Do not send recurring emails for pending donations unless they are offline](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-recurring-emails-for-pending-donations.php)
 
+#### Charitable Newsletter Connect
+
+- [Add MailChimp subscribers to a particular interest group](https://github.com/Charitable/library/blob/master/extensions/newsletter-connect/mailchimp/add-mailchimp-subscriber-to-interest-group.php)
+
 ### Themes
 
 #### Reach

@@ -84,6 +84,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Campaigns 
 
+#### Campaign Page
 - [Use the Page template for campaigns](https://github.com/Charitable/library/blob/master/campaigns/use-page-template-for-campaigns.php)
 - [Add featured image to the top of the campaign](https://github.com/Charitable/library/blob/master/campaigns/add-featured-image.php)
 - [Remove campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/remove-stats-summary-block.php)
@@ -92,17 +93,22 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the donor count from a specific campaign](https://github.com/Charitable/library/blob/master/campaigns/remove-donor-count-from-specific-campaign.php)
 - [Add a progress bar before the campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/add-progress-bar-before-summary.php)
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
-- [Remove the campaign descriptions from the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/remove-campaign-description.php)
-- [Add a custom field to the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/add-custom-field.php)
-- [Add a Read More link to the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/add-read-more-link.php)
-- [Change the Thumbnail size in the [campaigns] output](https://github.com/Charitable/library/blob/master/campaign-loop/set-campaign-thumbnail-size.php)
+
+#### Campaign Grid/Loop
+- [Remove the funds raised & progress bar in the campaigns grid](https://github.com/Charitable/library/blob/master/campaigns/remove-campaign-stats-loop.php)
+- [Remove the campaign descriptions from the campaigns grid](https://github.com/Charitable/library/blob/master/campaign-loop/remove-campaign-description.php)
+- [Add a custom field to the campaigns grid](https://github.com/Charitable/library/blob/master/campaign-loop/add-custom-field.php)
+- [Add a Read More link to the campaigns grid](https://github.com/Charitable/library/blob/master/campaign-loop/add-read-more-link.php)
+- [Change the Thumbnail size in the campaigns grid](https://github.com/Charitable/library/blob/master/campaign-loop/set-campaign-thumbnail-size.php)
+- [Display the campaign creator name in the campaign page and [campaigns] output](https://github.com/Charitable/library/blob/master/campaigns/add-creator-name.php)
+
+#### Other
 - [Disable description text santization](https://github.com/Charitable/library/blob/master/campaigns/disable-description-text-sanitization.php)
 - [Round the percentage donated to a whole number](https://github.com/Charitable/library/blob/master/campaigns/round-percent-donated-to-whole-number.php)
 - [Change the amount shown as donated to a particular campaign](https://github.com/Charitable/library/blob/master/campaigns/change-amount-donated.php)
 - [Change the campaign slug base](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-slug-base.php)
 - [Change the campaign rewrite rules to disable the `with_front` setting](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-rewrite-to-not-use-with-front.php)
 - [Add a "Campaigns" menu tab to the WordPress dashboard](https://github.com/Charitable/library/blob/master/campaigns/add-campaigns-menu.php)
-- [Display the campaign creator name in the campaign page and [campaigns] output](https://github.com/Charitable/library/blob/master/campaigns/add-creator-name.php)
 
 ### Notifications
 

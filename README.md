@@ -239,7 +239,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 #### Charitable Stripe Connect
 
-- [Only show Stripe account connect link for users with campaigns](https://github.com/Charitable/library/blob/master/extensions/stripe-connect/hide-stripe-conect-link-profile-form.php)
+- [Only show Stripe account connect link for users with campaigns](https://github.com/Charitable/library/blob/master/extensions/stripe-connect/hide-stripe-connect-link-profile-form.php)
 
 ### Themes
 

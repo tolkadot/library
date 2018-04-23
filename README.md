@@ -237,6 +237,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Add MailChimp subscribers to a particular interest group](https://github.com/Charitable/library/blob/master/extensions/newsletter-connect/mailchimp/add-mailchimp-subscriber-to-interest-group.php)
 
+#### Charitable Stripe Connect
+
+- [Only show Stripe account connect link for users with campaigns](https://github.com/Charitable/library/blob/master/extensions/stripe-connect/hide-stripe-conect-link-profile-form.php)
+
 ### Themes
 
 #### Reach

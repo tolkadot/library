@@ -165,6 +165,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Modify the arguments sent to PayUMoney](https://github.com/Charitable/library/blob/master/gateways/payumoney/modify-payment-args.php)
 
+#### PayFast
+
+- [Modify the arguments sent to PayFast](https://github.com/Charitable/library/blob/master/gateways/payfast/modify-payment-args.php)
+
+
 ### Extensions: 
 
 #### Charitable Ambassadors 

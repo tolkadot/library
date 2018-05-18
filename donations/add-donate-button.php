@@ -29,3 +29,19 @@ function ed_charitable_get_campaign_donate_button( $campaign_id ) {
 	Charitable_Public::get_instance()->enqueue_donation_form_scripts();
 
 }
+
+/**
+ * To add a shortcode to display a campaign's donate button, include this function below.
+ *
+ * @param  array $atts User-defined shortcode attributes.
+ * @return string
+ */
+function ed_charitable_campaign_donate_button_shortcode( $atts ) {
+	if ( ! array_key_exists( 'campaign_id', $atts ) ) {
+		return '';
+	}
+
+	return ed_charitable_get_campaign_donate_button( $atts['campaign_id'] );
+}
+
+add_shortcode( 'charitable_donate_button', 'ed_charitable_campaign_donate_button_shortcode' );

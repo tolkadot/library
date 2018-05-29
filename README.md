@@ -24,6 +24,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add the User Dashboard menu at the top of all User Dashboard pages](https://github.com/Charitable/library/blob/master/general/add-user-dashboard-menu.php)
 - [Change plugin text](https://github.com/Charitable/library/blob/master/general/change-plugin-text.php)
 - [Load template files in the admin](https://github.com/Charitable/library/blob/master/general/load-template-files-in-admin.php)
+
 ### Editing Forms
 
 - [Remove form fields](https://github.com/Charitable/library/tree/master/forms/general/remove-form-fields.php)
@@ -57,6 +58,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
 - [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
 - [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
+- [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
 
 ### Donation receipt
 

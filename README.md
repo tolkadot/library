@@ -151,6 +151,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Collect shipping information in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/collect-shipping-information.php)
 - [Set a custom item name for donations in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-custom-item-name.php)
 - [Set the locale in PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/set-locale.php)
+- [Use a different currency for PayPal](https://github.com/Charitable/library/blob/master/gateways/paypal/use-different-currency.php)
 
 #### Offline
 

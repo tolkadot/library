@@ -250,6 +250,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Only show Stripe account connect link for users with campaigns](https://github.com/Charitable/library/blob/master/extensions/stripe-connect/hide-stripe-connect-link-profile-form.php)
 
+#### Charitable User Avatar
+
+- [Add `[user_avatar]` shortcode](https://github.com/Charitable/library/blob/master/extensions/user-avatar/add-user-avatar-shortcode.php)
+
 ### Themes
 
 #### Reach

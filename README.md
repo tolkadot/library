@@ -143,6 +143,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
+- [Add extra campaign creator columns to the Campaigns export](https://github.com/Charitable/library/blob/master/export/add-campaign-creator-export-fields.php)
 
 ### Payment Gateways
 

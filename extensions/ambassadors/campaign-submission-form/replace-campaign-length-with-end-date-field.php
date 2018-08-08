@@ -22,3 +22,20 @@ function ed_charitable_replace_campaign_length_with_end_date_field( $fields, $fo
 }
 
 add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_replace_campaign_length_with_end_date_field', 10, 2 );
+
+/**
+ * Correctly handle an empty end date (when no end date is set).
+ *
+ * @param  string $end_date           The formatted end date.
+ * @param  string $submitted_end_date The submitted value.
+ * @return string|int The formatted end date, or 0 if there is no end date.
+ */
+function ed_charitable_format_empty_end_date( $end_date, $submitted_end_date ) {
+	if ( 0 == $submitted_end_date ) {
+		$end_date = 0;
+	}
+
+	return $end_date;
+}
+
+add_filter( 'charitable_ambassadors_get_formatted_end_date', 'ed_charitable_format_empty_end_date', 10, 2 );

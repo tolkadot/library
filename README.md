@@ -128,6 +128,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove a section](https://github.com/Charitable/library/blob/master/profile-form/remove-section.php)
 - [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
 - [Add a field to the "Your Details" section](https://github.com/Charitable/library/blob/master/profile-form/add-user-field.php)
+- [Keep a user's Display Name the same as their Login name](https://github.com/Charitable/library/blob/master/profile-form/keep-username-as-display-name.php)
 
 ### Registration form
 

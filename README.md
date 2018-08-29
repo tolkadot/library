@@ -219,6 +219,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a "Terms and Conditions" section to the campaign form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-terms-field.php)
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
+- [Make all fields required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/make-all-fields-required.php)
 
 ##### Campaigns
 

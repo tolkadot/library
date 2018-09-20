@@ -123,6 +123,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Change the arguments passed to the login form (uses `wp_login_form()`)](https://github.com/Charitable/library/blob/master/login-form/change-login-form-arguments.php)
 - [Redirect to the previous page after logging in](https://github.com/Charitable/library/blob/master/login-form/redirect-to-referer-after-login.php)
+- [Use the Charitable login page for `wp_login_url()`](https://github.com/Charitable/library/blob/master/endpoints/set-wp-login-url-to-charitable-login-page.php)
 
 ### Profile form
 

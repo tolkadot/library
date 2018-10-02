@@ -1,6 +1,6 @@
 # Charitable Code Snippet library
 
-This is a library of code snippets designed to help end users and theme or plugin developers. 
+This is a library of code snippets designed to help end users and theme or plugin developers.
 
 ## How to use the code snippets
 

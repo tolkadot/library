@@ -60,6 +60,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
 - [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
 - [Change the City field to a dropdown/select field](https://github.com/Charitable/library/blob/master/donation-form/change-city-field-to-select.php)
+- [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 
 ### Donation receipt
 

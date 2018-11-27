@@ -224,6 +224,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 - [Make all fields required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/make-all-fields-required.php)
+- [Make the "Goal" field required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/make-goal-required.php)
 
 ##### Campaigns
 

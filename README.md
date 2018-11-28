@@ -61,6 +61,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
 - [Change the City field to a dropdown/select field](https://github.com/Charitable/library/blob/master/donation-form/change-city-field-to-select.php)
 - [Change the section headers](https://github.com/Charitable/library/blob/master/donation-form/change-section-headers.php)
+- [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
 - [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 
 ### Donation receipt

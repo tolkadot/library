@@ -8,7 +8,7 @@ If you are new to PHP or WordPress development, we recommend adding these code s
 
 For those a little more familiar with WordPress development, you can use the snippets to create simple standalone plugins. Read the WordPress documentation about [creating a plugin](https://codex.wordpress.org/Writing_a_Plugin).
 
-Alternatively, you could add the snippets directly to your theme or child theme's `functions.php` file. 
+Alternatively, you could add the snippets directly to your theme or child theme's `functions.php` file.
 
 ## Contributing a snippet
 
@@ -92,7 +92,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add the payment method used for the donation to donation emails](https://github.com/Charitable/library/blob/master/emails/add-gateway-donation-field.php)
 - [Change the footer text in all emails](https://github.com/Charitable/library/blob/master/emails/change-footer-text.php)
 
-### Campaigns 
+### Campaigns
 
 #### Campaign Page
 - [Use the Page template for campaigns](https://github.com/Charitable/library/blob/master/campaigns/use-page-template-for-campaigns.php)
@@ -145,11 +145,17 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Redirect the user to a custom page after registration](https://github.com/Charitable/library/blob/master/registration-form/set-custom-redirection-after-registration.php)
 - [Set the role of new users](https://github.com/Charitable/library/blob/master/registration-form/set-new-user-role.php)
 
+### Widgets
+
+#### Donation Stats
+
+- [Customize the stats to show in the Donation Stats widget](https://github.com/Charitable/library/blob/master/widgets/customize-donation-stats.php)
+
 ### Styles
 
 - [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)
 
-### Export 
+### Export
 
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
@@ -186,9 +192,9 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Modify the arguments sent to PayFast](https://github.com/Charitable/library/blob/master/gateways/payfast/modify-payment-args.php)
 
 
-### Extensions: 
+### Extensions:
 
-#### Charitable Ambassadors 
+#### Charitable Ambassadors
 
 ##### Campaign Form
 

@@ -18,27 +18,27 @@
  * form as well. Set admin_form to false if you would like to disable that.
  */
 function ed_charitable_register_new_donation_field() {
-    /**
-     * Define a new text field.
-     */
-    $field = new Charitable_Donation_Field( 'new_text_field', array(
-        'label' => __( 'New Text Field', 'charitable' ),
-        'data_type' => 'user',
-        'donation_form' => array(
-            'show_after' => 'phone',
-            'required'   => false,
-        ),
-        'admin_form' => true,
-        'show_in_meta' => true,
-        'show_in_export' => true,
-        'email_tag' => array(
-            'description' => __( 'The new text field' , 'charitable' ),
-        ),
-    ) );
-    /**
-     * Register the text field.
-     */
-    charitable()->donation_fields()->register_field( $field );
+	/**
+	 * Define a new text field.
+	 */
+	$field = new Charitable_Donation_Field( 'new_text_field', array(
+		'label' => __( 'New Text Field', 'charitable' ),
+		'data_type' => 'user',
+		'donation_form' => array(
+			'show_after' => 'phone',
+			'required'   => false,
+		),
+		'admin_form' => true,
+		'show_in_meta' => true,
+		'show_in_export' => true,
+		'email_tag' => array(
+			'description' => __( 'The new text field' , 'charitable' ),
+		),
+	) );
+	/**
+	 * Register the text field.
+	 */
+	charitable()->donation_fields()->register_field( $field );
 }
 
 add_action( 'init', 'ed_charitable_register_new_donation_field' );
@@ -53,13 +53,13 @@ add_action( 'init', 'ed_charitable_register_new_donation_field' );
  */
 function ed_charitable_conditionally_show_custom_field( $fields, Charitable_Donation_Form $form ) {
 	/**
-     * If you only want to collect a certain field on a certain campaign's
-     * donation form, uncomment this next section and replace 1234 with the
-     * ID of your campaign.
-     */
-    if ( 8 != $form->get_campaign()->ID ) {
-        unset( $fields['new_text_field'] );
-    }
+	 * If you only want to collect a certain field on a certain campaign's
+	 * donation form, uncomment this next section and replace 1234 with the
+	 * ID of your campaign.
+	 */
+	if ( 8 != $form->get_campaign()->ID ) {
+		unset( $fields['new_text_field'] );
+	}
 
 	return $fields;
 }

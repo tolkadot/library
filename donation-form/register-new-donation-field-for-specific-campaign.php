@@ -57,7 +57,7 @@ function ed_charitable_conditionally_show_custom_field( $fields, Charitable_Dona
 	 * donation form, uncomment this next section and replace 1234 with the
 	 * ID of your campaign.
 	 */
-	if ( 8 != $form->get_campaign()->ID ) {
+	if ( 1234 != $form->get_campaign()->ID ) {
 		unset( $fields['new_text_field'] );
 	}
 

@@ -54,10 +54,10 @@ add_action( 'init', 'ed_charitable_register_new_donation_field' );
 function ed_charitable_conditionally_show_custom_field( $fields, Charitable_Donation_Form $form ) {
 	/**
 	 * If you only want to collect a certain field on a certain campaign's
-	 * donation form, uncomment this next section and replace 1234 with the
+	 * donation form, uncomment this next section and replace 8 with the
 	 * ID of your campaign.
 	 */
-	if ( 1234 != $form->get_campaign()->ID ) {
+	if ( 8 != $form->get_campaign()->ID ) {
 		unset( $fields['new_text_field'] );
 	}
 

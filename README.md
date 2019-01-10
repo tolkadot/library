@@ -44,6 +44,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Adding a checkbox field](https://github.com/Charitable/library/blob/master/donation-form/add-checkbox-field-to-donation-form.php)
 - [Adding a select field](https://github.com/Charitable/library/blob/master/donation-form/add-select-field-to-donation-form.php)
 - [Adding multiple fields at once](https://github.com/Charitable/library/blob/master/donation-form/register-multiple-donation-fields.php)
+- [Adding a new field, but only showing it for a specific campaign](https://github.com/Charitable/library/blob/master/donation-form/register-new-donation-field-for-specific-campaign.php)
 
 #### Changing fields & other
 

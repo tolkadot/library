@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
  * Collect a checkbox field in the donation form.
  *
- * Fields are added as a PHP array that define the field. You can customize the 
- * following fields: 
+ * Fields are added as a PHP array that define the field. You can customize the
+ * following fields:
  *
  * label: The label that will be displayed alongside the field.
- * placeholder: Optionally, you can display a placeholder value to be shown inside the field. 
+ * placeholder: Optionally, you can display a placeholder value to be shown inside the field.
  * type: The type of field. Options: text, checkbox, datepicker, editor, file, multi-checkbox, number, picture, radio, select, textarea, url
  * priority: The priority of the field. This determines where in the form the field is displayed.
  * value: The current/default value of the field.
@@ -20,21 +20,21 @@
 function ed_collect_checkbox_field( $fields, Charitable_Donation_Form $form ) {
 
     /**
-     * If you only want to collect a certain field on a certain campaign's 
+     * If you only want to collect a certain field on a certain campaign's
      * donation form, uncomment this next section and replace 1234 with the
      * ID of your campaign.
-     */    
+     */
     // if ( 1234 != $form->get_campaign()->ID ) {
-    //     return $fields;   
+    //     return $fields;
     // }
 
     $fields['checkbox_field'] = array(
-        'label'     => __( 'Checkbox Field', 'your-namespace' ), 
-        'type'      => 'checkbox', 
+        'label'     => __( 'Checkbox Field', 'your-namespace' ),
+        'type'      => 'checkbox',
         'priority'  => 24,
         'value'     => 1,
         'checked'   => array_key_exists( 'donor_checkbox_field', $_POST ) ? $_POST['donor_checkbox_field'] : $form->get_user_value( 'donor_checkbox_field' ),
-        'required'  => true, 
+        'required'  => true,
         'data_type' => 'user'
     );
 
@@ -65,28 +65,28 @@ function ed_show_checkbox_field_in_admin( $meta, $donation ) {
 add_filter( 'charitable_donation_admin_meta', 'ed_show_checkbox_field_in_admin', 10, 2 );
 
 /**
- * Display the Checkbox Field # in emails. 
+ * Display the Checkbox Field # in emails.
  *
  * This function will only work if you are using Charitable 1.4+.
  *
- * Once you have added this snippet, you can display the value in your 
+ * Once you have added this snippet, you can display the value in your
  * email like this: [charitable_email show=checkbox_field]
  *
- * To adapt this to your needs, you need to pay special attention to the 
- * filter name. In the example below, our filter name is 
- * `charitable_email_content_field_value_checkbox_field`. The 
- * `checkbox_field` part of this filter name should be whatever you 
- * use in the shortcode for the show parameter. In other words, if this 
- * is your shortcode: 
+ * To adapt this to your needs, you need to pay special attention to the
+ * filter name. In the example below, our filter name is
+ * `charitable_email_content_field_value_checkbox_field`. The
+ * `checkbox_field` part of this filter name should be whatever you
+ * use in the shortcode for the show parameter. In other words, if this
+ * is your shortcode:
  *
  * [charitable_email show=my_amazing_field]
- * 
- * This would be your filter name: 
+ *
+ * This would be your filter name:
  *
  * charitable_email_content_field_value_my_amazing_field
  *
- * Out of convention, we suggest replacing both with the identifier 
- * for your field that you use throughout, which is what we have done 
+ * Out of convention, we suggest replacing both with the identifier
+ * for your field that you use throughout, which is what we have done
  * in this example.
  *
  * @param   string $value
@@ -124,7 +124,7 @@ add_filter( 'charitable_export_donations_columns', 'ed_donation_export_add_check
 
 /**
  * Add the Checkbox Field value for donation.
- * 
+ *
  * @param   mixed  $value
  * @param   string $key
  * @param   array  $data

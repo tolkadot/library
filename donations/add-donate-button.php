@@ -16,9 +16,11 @@ ed_charitable_get_campaign_donate_button( 123 );
  * Clicking on "Donate" will open the donation form modal directly
  * on the page.
  *
- * @param   int $campaign_id
+ * @param  int $campaign_id
+ * @return string
  */
 function ed_charitable_get_campaign_donate_button( $campaign_id ) {
+	ob_start();
 
 	$campaign = charitable_get_campaign( $campaign_id );
 
@@ -28,6 +30,7 @@ function ed_charitable_get_campaign_donate_button( $campaign_id ) {
 
 	Charitable_Public::get_instance()->enqueue_donation_form_scripts();
 
+	return ob_get_clean();
 }
 
 /**

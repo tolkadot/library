@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * This code snippet shows how you can change what amount is shown as donated for a particular campaign.

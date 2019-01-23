@@ -81,7 +81,7 @@ function ed_charitable_add_gallery_to_campaign( $content ) {
     echo $content;
 
     echo do_shortcode( '[gallery ids=' . implode( ',', $gallery ) . ']' );
- 
+
     return ob_get_clean();
 
 }

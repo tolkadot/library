@@ -214,6 +214,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set default campaign name](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-name.php)
 - [Set default campaign goal](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-goal.php)
 - [Set default text for full description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-text-for-description-field.php)
+- [Set default campaign image](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-image.php)
+- [Set default campaign video](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-campaign-video.php)
 - [Set default country for Ambassadors](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-default-ambassador-country.php)
 - [Set the default category for new campaign submissions](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-category.php)
 - [Set maximum length of Short Description field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-max-length-of-short-description.php)

@@ -278,6 +278,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Only show Stripe account connect link for users with campaigns](https://github.com/Charitable/library/blob/master/extensions/stripe-connect/hide-stripe-connect-link-profile-form.php)
 
+#### Charitable Authorize.Net
+
+- [Force a wait before executing Recurring Donations request (This can fix OTS Token error)](https://github.com/Charitable/library/blob/master/gateways/authorize.net/force-wait-before-recurring-donation-request.php)
+
 #### Charitable User Avatar
 
 - [Add `[user_avatar]` shortcode](https://github.com/Charitable/library/blob/master/extensions/user-avatar/add-user-avatar-shortcode.php)

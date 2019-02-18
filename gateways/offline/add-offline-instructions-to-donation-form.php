@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Add the offline donation instructions to the donation form.
  *
@@ -13,8 +13,8 @@ function ed_charitable_add_offline_instructions_to_donation_form( $fields, $gate
 
     $fields['offline_instructions'] = array(
         'type'      => 'paragraph',
-        'priority'  => 0, 
-        'fullwidth' => true, 
+        'priority'  => 0,
+        'fullwidth' => true,
         'content'   => $gateway->get_value( 'instructions' ),
     );
 

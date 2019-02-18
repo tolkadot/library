@@ -60,7 +60,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
 - [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
 - [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
-- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/add-offline-instructions-to-donation-form.php)
+- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/offline/add-offline-instructions-to-donation-form.php)
 - [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
 - [Change the City field to a dropdown/select field](https://github.com/Charitable/library/blob/master/donation-form/change-city-field-to-select.php)
 - [Change the section headers](https://github.com/Charitable/library/blob/master/donation-form/change-section-headers.php)

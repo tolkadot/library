@@ -152,6 +152,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Customize the stats to show in the Donation Stats widget](https://github.com/Charitable/library/blob/master/widgets/customize-donation-stats.php)
 
+#### Donors
+
+- [Only show the donor's first name and initial of last name](https://github.com/Charitable/library/blob/master/donors/change-donor-name-display.php)
+
 ### Styles
 
 - [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)

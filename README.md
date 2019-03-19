@@ -73,6 +73,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Display a summary of the amount raised for the campaign](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-raised-summary.php)
 - [Set a custom donation receipt page](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page.php)
 - [Set a custom donation receipt page for offline donations](https://github.com/Charitable/library/blob/master/donation-receipt/set-custom-donation-receipt-page-for-offline-donations.php)
+- [Set a custom donation receipt page for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-custom-receipt-page-for-recurring.php)
 
 ### Donations
 
@@ -270,6 +271,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Automatically check the "Make it monthly" checkbox in the donation form](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/pre-check-recurring-donation-checkbox.php)
 - [Do not send recurring emails for pending donations unless they are offline](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-recurring-emails-for-pending-donations.php)
 - [Register Recurring Donation Subscription ID field](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/register-donation-plan-id-field.php)
+- [Set a custom donation receipt page for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-custom-receipt-page-for-recurring.php)
 
 #### Charitable Newsletter Connect
 

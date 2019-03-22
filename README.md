@@ -275,6 +275,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 #### Charitable Newsletter Connect
 
+- [Add subscribers to a particular list without opt-in, when settings are set to require opt-in](https://github.com/Charitable/library/blob/master/extensions/newsletter-connect/add-subscriber-without-optin.php)
+
 ##### MailChimp
 
 - [Add MailChimp subscribers to a particular interest group](https://github.com/Charitable/library/blob/master/extensions/newsletter-connect/mailchimp/add-mailchimp-subscriber-to-interest-group.php)

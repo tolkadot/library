@@ -55,6 +55,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set the default donation amount for all campaigns](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount.php)
 - [Set the default donation amount on a per-campaign basis](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount-per-campaign.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-minimum-donation-amount.php)
+- [Set the maximum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-maximum-donation-amount.php)
 - [Allow people to make $0 "donations"](https://github.com/Charitable/library/blob/master/donation-form/allow-zero-dollar-donations.php)
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
 - [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)

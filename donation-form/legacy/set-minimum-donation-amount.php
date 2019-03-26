@@ -19,7 +19,7 @@ function ed_set_minimum_donation_amount( $valid, Charitable_Donation_Form_Interf
         charitable_get_notices()->add_error( sprintf(
             __( 'You must donate more than %s.', 'charitable' ),
             charitable_format_money( $minimum )
-        ) );    
+        ) );
 
         $valid = false;
 

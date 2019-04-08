@@ -315,6 +315,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)
 - [Alone - Campaign grid (removed the progress bar)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-grid-remove-progress-bar.php)
 - [Born to Give - Campaign page (remove donation stats, goal & time remaining)](https://github.com/Charitable/library/blob/master/themes/born-to-give/single-campaign.php)
+- [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
 ### Legacy snippets
 
 #### Pre Charitable 1-5

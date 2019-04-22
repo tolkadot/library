@@ -67,6 +67,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the section headers](https://github.com/Charitable/library/blob/master/donation-form/change-section-headers.php)
 - [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
 - [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
+- [Remove Terms & Conditions, Privacy Policy and User Consent fields](https://github.com/Charitable/library/blob/master/donation-form/remove-terms-fields.php)
 
 ### Donation receipt
 

@@ -319,7 +319,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
 ### Legacy snippets
 
-#### Pre Charitable 1-5
+#### Pre Charitable 1.6
+
+- [Removing donation form fields](https://github.com/Charitable/library/blob/master/donation-form/legacy/remove-donation-form-fields.php)
+
+#### Pre Charitable 1.5
 
 - [Adding a text field (condensed example)](https://github.com/Charitable/library/blob/master/donation-form/legacy/collect-national-id-number.php)
 - [Adding a checkbox field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-checkbox-field-to-donation-form.php)

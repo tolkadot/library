@@ -18,7 +18,7 @@ add_action( 'init', function() {
 
 	// Get the field.
 	$field = charitable()->donation_fields()->get_field( 'city' );
-	
+
 	// In the admin donation form, change the type to select and
 	// add our list of cities as options.
 	$field->set( 'admin_form', 'type', 'select' );

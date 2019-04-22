@@ -1,36 +1,34 @@
-<?php 
+<?php
 /**
  * This example shows how to remove fields from the donation form.
  *
- * In this example, we remove the phone field, but you can modify this
- * code snippet to remove other fields instead. Any of the following 
- * fields can be removed:
+ * Note that this approach requires Charitable 1.6 or above. If you are
+ * on a previous version of Charitable, see the link below for a legacy
+ * way of doing the same thing:
  *
- * first_name
- * last_name
- * address
- * address_2
- * city
- * state
- * postcode
- * country
- * phone
- *
- * @param   array[] $fields
- * @return  array[]
+ * @see https://github.com/Charitable/library/blob/master/donation-form/legacy/remove-donation-form-fields.php
  */
-function en_remove_donation_form_fields( $fields ) {
+add_action(
+    'init',
+    function() {
+        $fields_api = charitable()->donation_fields();
 
-    /**
-     * To remove other fields, just replace 'phone' with the key of the 
-     * field you want to remove instead. You can remove multiple fields 
-     * by comma-separating the fields inside of the unset function. Example:
-     *
-     * unset( $fields[ 'phone' ], $fields[ 'country' ] );
-     */
-    unset( $fields[ 'phone' ] );
-
-    return $fields;
-}
-
-add_filter( 'charitable_donation_form_user_fields', 'en_remove_donation_form_fields' );
+        /**
+         * In this example, we remove the last name field. But you can
+         * easily modify this example to remove any other fields by swapping
+         * 'last_name' for the key of the field you would like to remove.
+         *
+         * first_name
+         * last_name
+         * email
+         * address
+         * address_2
+         * city
+         * state
+         * postcode
+         * country
+         * phone
+         */
+        $fields_api->get_field( 'last_name' )->set( 'donation_form', false );
+    }
+);

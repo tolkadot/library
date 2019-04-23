@@ -1,7 +1,7 @@
 <?php
 /**
  * Display percent donated as rounded whole number.
- * 
+ *
  * @param   string $return
  * @param   int $percent
  * @return  string

@@ -291,6 +291,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Charitable Authorize.Net
 
 - [Force a wait before executing Recurring Donations request (This can fix OTS Token error)](https://github.com/Charitable/library/blob/master/gateways/authorize.net/force-wait-before-recurring-donation-request.php)
+- [Set a custom order description](https://github.com/Charitable/library/blob/master/gateways/authorize.net/set-order-description.php)
 
 #### Charitable User Avatar
 

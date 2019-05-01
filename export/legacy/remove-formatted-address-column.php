@@ -1,4 +1,10 @@
 <?php
+/**
+ * NOTE: This is the legacy way of doing this. For a better way to remove fields from the
+ * export on Charitable 1.5+, see:
+ *
+ * @see https://github.com/Charitable/library/blob/master/export/remove-donation-columns.php
+ */
 
 /**
  * Removing a column from the donations export sheet is easy enough.

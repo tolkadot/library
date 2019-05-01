@@ -166,7 +166,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ### Export
 
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)
-- [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-formatted-address-column.php)
+- [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-donation-columns.php)
 - [Add extra campaign creator columns to the Campaigns export](https://github.com/Charitable/library/blob/master/export/add-campaign-creator-export-fields.php)
 - [Format the date in the Date of Donation column](https://github.com/Charitable/library/blob/master/export/format-date.php)
 
@@ -331,3 +331,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Adding a select field](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-select-field-to-donation-form.php)
 - [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-donation-form-shortcode.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/legacy/set-minimum-donation-amount.php)
+- [Removing a field from the donations export](https://github.com/Charitable/library/blob/master/export/legacy/remove-formatted-address-column.php)

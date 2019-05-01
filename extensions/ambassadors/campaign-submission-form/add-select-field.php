@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * This function adds a custom select field to the campaign submission form.
@@ -12,12 +12,12 @@ function ed_charitable_add_campaign_form_select_field( $fields, $form ) {
     /**
      * Retrieve the current value of the field in the form.
      */
-    $value = $form->get_campaign_value( 'custom_select_field' ); 
-    
+    $value = $form->get_campaign_value( 'custom_select_field' );
+
     /**
      * Set up the options that people can choose from in the select.
      *
-     * You could also get options dynamically from a set of posts, 
+     * You could also get options dynamically from a set of posts,
      * pages or custom post types, for example.
      *
      * @see ed_charitable_get_select_field_options()
@@ -44,11 +44,11 @@ function ed_charitable_add_campaign_form_select_field( $fields, $form ) {
      return $fields;
 }
 
-add_filter( 'charitable_campaign_submission_campaign_fields' , 'ed_charitable_add_campaign_form_select_field', 10, 2 ); 
+add_filter( 'charitable_campaign_submission_campaign_fields' , 'ed_charitable_add_campaign_form_select_field', 10, 2 );
 
 /**
- * This function shows how you can generate your list of options based on a 
- * WP_Query result, which can be useful if you need to allow your campaign 
+ * This function shows how you can generate your list of options based on a
+ * WP_Query result, which can be useful if you need to allow your campaign
  * creators to select from a list of posts, pages or another custom post type.
  *
  * @return  array
@@ -73,5 +73,3 @@ function ed_charitable_get_select_field_options() {
     return $options;
 
 }
-
-

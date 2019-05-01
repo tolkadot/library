@@ -29,6 +29,6 @@ add_action(
          * country
          * phone
          */
-        $fields_api->get_field( 'last_name' )->set( 'donation_form', false );
+        $fields_api->get_field( 'last_name' )->set( 'donation_form', '', false );
     }
 );

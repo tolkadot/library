@@ -14,21 +14,21 @@ add_action(
 		$fields_api = charitable()->donation_fields();
 
 		/**
-         * In this example, we remove the last name field. But you can
-         * easily modify this example to remove any other fields by swapping
-         * 'last_name' for the key of the field you would like to remove.
-         *
-         * first_name
-         * last_name
-         * email
+		 * In this example, we remove the last name field. But you can
+		 * easily modify this example to remove any other fields by swapping
+		 * 'last_name' for the key of the field you would like to remove.
+		 *
+		 * first_name
+		 * last_name
+		 * email
 		 * donor_address (full formatted address)
-         * address
-         * address_2
-         * city
-         * state
-         * postcode
-         * country
-         * phone
+		 * address
+		 * address_2
+		 * city
+		 * state
+		 * postcode
+		 * country
+		 * phone
 		 * campaign_categories_list
 		 * date
 		 * time
@@ -36,8 +36,8 @@ add_action(
 		 * gateway_label
 		 * test_mode
 		 * contact_consent
-         */
-        $fields_api->get_field( 'donor_address' )->show_in_export = false;
+		 */
+		$fields_api->get_field( 'donor_address' )->show_in_export = false;
 		$fields_api->get_field( 'campaign_categories_list' )->show_in_export = false;
 	}
 );

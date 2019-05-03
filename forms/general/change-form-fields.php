@@ -1,8 +1,8 @@
-<?php 
+<?php
 /**
  * This example shows how to change fields in a form.
  *
- * In the example below we're changing fields in the user section 
+ * In the example below we're changing fields in the user section
  * of the donation form.
  *
  * Most of the forms that are used on the frontend in Charitable
@@ -47,10 +47,16 @@
  * --- 'postcode'
  * --- 'country'
  * --- 'phone'
- * 
+ *
  * - Donation form (donation amount section): charitable_donation_form_donation_fields
  * --- 'donation_amount'
- * 
+ *
+ * - Donation form (credit card section): charitable_credit_card_fields
+ * --- 'cc_name'
+ * --- 'cc_number'
+ * --- 'cc_cvc'
+ * --- 'cc_expiration'
+ *
  * - Campaign form (campaign section): charitable_campaign_submission_campaign_fields
  * --- 'post_title'
  * --- 'description'
@@ -62,9 +68,9 @@
  * --- 'campaign_tag'
  *
  * - Campaign form (donation options section): charitable_campaign_submission_donation_options_fields
- * --- 'donation_options' 
+ * --- 'donation_options'
  * --- 'suggested_donations'
- * --- 'allow_custom_donations' 
+ * --- 'allow_custom_donations'
  *
  * - Campaign form (user section): charitable_campaign_submission_user_fields
 
@@ -113,7 +119,7 @@ function ed_charitable_change_donation_form_fields( $fields ) {
      * Change the State field to a dropdown select.
      */
     $fields['state']['type'] = 'select';
-    $fields['state']['options'] = array(        
+    $fields['state']['options'] = array(
         'international' => 'Outside North America', // Extra option
         'United States' => include( charitable()->get_path( 'directory' ) . 'i18n/states/US.php' ),
         'Canada' => include( charitable()->get_path( 'directory' ) . 'i18n/states/CA.php' ),

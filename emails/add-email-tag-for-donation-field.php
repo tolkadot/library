@@ -20,24 +20,24 @@ add_action(
 		$fields_api = charitable()->donation_fields();
 
 		/**
-         * In this example, we add an email tag for the last name field. But you
+		 * In this example, we add an email tag for the last name field. But you
 		 * can easily modify this example to remove any other fields by swapping
-         * 'last_name' for the key of the field you would like to add an email
+		 * 'last_name' for the key of the field you would like to add an email
 		 * tag for.
-         *
-         * last_name
-         * address - first address line
-         * address_2
-         * city
-         * state
-         * postcode
-         * country
-         * phone
+		 *
+		 * last_name
+		 * address - first address line
+		 * address_2
+		 * city
+		 * state
+		 * postcode
+		 * country
+		 * phone
 		 * time
 		 * gateway_label
 		 * test_mode
-         */
-        $fields_api->get_field( 'last_name' )->email_tag = array(
+		 */
+		$fields_api->get_field( 'last_name' )->email_tag = array(
 			'description' => 'The last name of the donor',
 			'preview'     => 'Smith',
 		);

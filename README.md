@@ -298,6 +298,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Add `[user_avatar]` shortcode](https://github.com/Charitable/library/blob/master/extensions/user-avatar/add-user-avatar-shortcode.php)
 
+#### Charitable Anonymous Donations
+
+- [Make the anonymous donations checkbox checked by default](https://github.com/Charitable/library/blob/master/extensions/anonymous-donations/check-anonymous-donations-field-by-default.php)
+
 ### Themes
 
 #### Reach

@@ -69,6 +69,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 - [Remove Terms & Conditions, Privacy Policy and User Consent fields](https://github.com/Charitable/library/blob/master/donation-form/remove-terms-fields.php)
 
+#### Admin donation form (manual donations)
+
+- [Allow manual donations without an email address](https://github.com/Charitable/library/blob/master/admin-donation-form/allow-manual-donations-without-email.php)
+
 ### Donation receipt
 
 - [Display a link back to the campaign from the donation receipt](https://github.com/Charitable/library/blob/master/donation-receipt/add-campaign-link.php)

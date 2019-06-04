@@ -1,31 +1,34 @@
-<?php 
+<?php
 /**
  * Make all address fields required.
  *
- * @param   array[] $fields
- * @return  array[]
+ * As of Charitable 1.6 the approach below is the recommended way of achieving this.
+ * If you are using an older version of Charitable, see the legacy version below:
+ *
+ * @see https://github.com/Charitable/library/blob/master/donation-form/legacy/make-donor-address-required.php
+ *
+ * @return void
  */
-function ed_make_donor_address_required( $fields ) {
-    /**
-     * These are the fields that we will make required. 
-     */
-    $required_fields = array(
-        'address',
-        // 'address_2',
-        'city',
-        'state',
-        'postcode',
-        'country',
-        'phone'
-    );
+add_action(
+    'init',
+    function() {
+        /**
+         * These are the fields that we will make required.
+         */
+        $required_fields = array(
+            'address',
+            // 'address_2',
+            'city',
+            'state',
+            'postcode',
+            'country',
+            'phone'
+        );
 
-    foreach ( $required_fields as $key ) {
+        $fields = charitable()->donation_fields();
 
-        $fields[ $key ][ 'required' ] = true;
-
+        foreach ( $required_fields as $field ) {
+            $fields->get_field( $field )->set( 'donation_form', 'required', true );
+        }
     }
-
-    return $fields;
-}
-
-add_filter( 'charitable_donation_form_user_fields', 'ed_make_donor_address_required' );
+);

@@ -1,6 +1,6 @@
-<?php 
+<?php
 /**
- * If you want to add multiple new fields to your donation form, 
+ * If you want to add multiple new fields to your donation form,
  * you can do that in a single function.
  *
  * In the example below, we add three separate fields:
@@ -25,20 +25,25 @@ function ed_charitable_register_new_donation_fields() {
     /**
      * Define a new text field.
      */
-    $field = new Charitable_Donation_Field( 'new_text_field', array(
-        'label' => __( 'New Text Field', 'charitable' ),
-        'data_type' => 'user',
-        'donation_form' => array(
-            'show_after' => 'phone',
-            'required'   => false,
-        ),
-        'admin_form' => true,
-        'show_in_meta' => true,
-        'show_in_export' => true,
-        'email_tag' => array(
-            'description' => __( 'The new text field' , 'charitable' ),
-        ),
-    ) );
+    $field = new Charitable_Donation_Field(
+        'new_text_field',
+        array(
+            'label' => __( 'New Text Field', 'charitable' ),
+            'data_type' => 'user',
+            'donation_form' =>
+                array(
+                    'show_after' => 'phone',
+                    'required'   => false,
+                ),
+            'admin_form' => true,
+            'show_in_meta' => true,
+            'show_in_export' => true,
+            'email_tag' =>
+                array(
+                    'description' => __( 'The new text field' , 'charitable' ),
+                ),
+        )
+    );
 
     /**
      * Register the text field.

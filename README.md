@@ -306,6 +306,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Make the anonymous donations checkbox checked by default](https://github.com/Charitable/library/blob/master/extensions/anonymous-donations/check-anonymous-donations-field-by-default.php)
 
+#### Charitable Gift Aid
+
+- [Add additional titles](https://github.com/Charitable/library/blob/master/extensions/gift-aid/add-additional-titles.php)
+
 ### Themes
 
 #### Reach

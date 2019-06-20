@@ -325,6 +325,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the donation page title](https://github.com/Charitable/library/blob/master/themes/reach/change-donation-page-title.php)
 - [Prevent the donation receipt from loading in the user dashboard](https://github.com/Charitable/library/blob/master/themes/reach/do-not-load-receipt-in-user-dashboard.php)
 - [Turn off the campaign archive](https://github.com/Charitable/library/blob/master/themes/reach/turn-off-campaign-archive.php)
+- [Change header home link](https://github.com/Charitable/library/blob/master/themes/reach/change-header-home-link.php)
 
 #### 3rd Party Themes
 

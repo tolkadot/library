@@ -68,6 +68,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
 - [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 - [Remove Terms & Conditions, Privacy Policy and User Consent fields](https://github.com/Charitable/library/blob/master/donation-form/remove-terms-fields.php)
+- [Prevent donor fields from being hidden by default for logged in users](https://github.com/Charitable/library/blob/master/donation-form/do-not-hide-donor-fields-for-logged-in-users.php)
 
 #### Admin donation form (manual donations)
 

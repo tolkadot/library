@@ -239,6 +239,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the campaign length field and replace with an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
 - [Add start date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-start-date-field.php)
 - [Add field to "Who Are You Raising Money For?" section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-field-to-recipient-details.php)
+- [Add recipient type to "who Are You Raising Money For?" section, with a custom field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-school-recipient-type.php)
 - [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-user-details-to-funds-recipient-information.php)
 - [Automatically set the Suggested Donations and custom donation settings](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/automatically-set-donation-options.php)
 - [Automatically set the campaign parent for all submitted campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-parent.php)

@@ -14,26 +14,26 @@
  * @return void
  */
 add_action(
-    'init',
-    function() {
-        $fields = charitable()->donation_fields();
+	'init',
+	function() {
+		$fields = charitable()->donation_fields();
 
 		/**
 		 * Get the field using the field's key. Default options available:
 		 *
 		 * first_name
-         * last_name
-         * email
-         * address
-         * address_2
-         * city
-         * state
-         * postcode
-         * country
-         * phone
+		 * last_name
+		 * email
+		 * address
+		 * address_2
+		 * city
+		 * state
+		 * postcode
+		 * country
+		 * phone
 		 * anonymous_donation - If using Anonymous Donations.
 		 * donor_comment - If using Donor Comments.
 		 */
 		$fields->get_field( 'address' )->set( 'donation_form', 'required', true );
-    }
+	}
 );

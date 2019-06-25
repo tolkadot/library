@@ -31,7 +31,7 @@ add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_rep
  * @return string|int The formatted end date, or 0 if there is no end date.
  */
 function ed_charitable_format_empty_end_date( $end_date, $submitted_end_date ) {
-	if ( 0 == $submitted_end_date ) {
+	if ( empty( $submitted_end_date ) ) {
 		$end_date = 0;
 	}
 

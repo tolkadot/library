@@ -28,6 +28,8 @@ add_action(
          * postcode
          * country
          * phone
+		 * anonymous_donation - If using Anonymous Donations.
+		 * donor_comment - If using Donor Comments.
          */
         $fields_api->get_field( 'last_name' )->set( 'donation_form', '', false );
     }

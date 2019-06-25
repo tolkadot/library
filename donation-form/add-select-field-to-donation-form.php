@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Add a select field to the donation form.
  *

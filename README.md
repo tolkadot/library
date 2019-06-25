@@ -49,6 +49,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Changing fields & other
 
 - [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
+- [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)

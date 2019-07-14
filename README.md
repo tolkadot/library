@@ -153,6 +153,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Registration form
 
+- [Add additional fields to the form](https://github.com/Charitable/library/blob/master/registration-form/add-fields.php)
 - [Send emails to the new user and admin after a user registers](https://github.com/Charitable/library/blob/master/registration-form/send-new-user-notifications.php)
 - [Redirect the user to a custom page after registration](https://github.com/Charitable/library/blob/master/registration-form/set-custom-redirection-after-registration.php)
 - [Set the role of new users](https://github.com/Charitable/library/blob/master/registration-form/set-new-user-role.php)

@@ -1,31 +1,32 @@
-<?php 
+<?php
 /**
- * Add an extra column to the donation export.
+ * This example shows how to remove columns from the Donations export.
  *
- * @param  array $columns The default set of columns.
- * @return array
- */
-function ed_charitable_add_donation_export_column( $columns ) {
-    return array_merge( $columns, array( 'campaign_description' => 'Campaign Description' ) );
-}
-
-add_filter( 'charitable_export_donations_columns', 'ed_charitable_add_donation_export_column' );
-
-/**
- * Set the value to show in the cell.
+ * Since this relies on the Donation Fields API, it requires Charitable 1.5+.
  *
- * @param  string $value The existing value.
- * @param  string $key   The key of the field. Note: This function will be called for every cell, so
- *                       you need to check and make sure you only set the value of the field we added.
- * @param  array  $data  The data for the table row.
- * @return string
+ * For a way of doing this on older versions of Charitable, or where the column
+ * you want to add is not registered in the Donation Fields API, see:
+ *
+ * @see https://github.com/Charitable/library/blob/master/export/legacy/add-extra-column.php
  */
-function ed_charitable_set_donation_export_cell_value( $value, $key, $data ) {
-    if ( 'campaign_description' != $key ) {
-        return $value;
-    }
+add_action(
+	'init',
+	function() {
+		$fields_api = charitable()->donation_fields();
 
-    return charitable_get_campaign( $data['campaign_id'] )->description;
-}
-
-add_filter( 'charitable_export_data_key_value', 'ed_charitable_set_donation_export_cell_value', 10, 3 );
+		/**
+		 * In this example, we add the 'donor' field to the export. But you can
+		 * easily modify this example to remove any other fields by swapping
+		 * 'donor' for the key of the field you would like to add:
+		 *
+		 * donor
+		 * campaigns
+		 * amount_formatted
+		 * status
+		 * donation_gateway
+		 * donation_key
+		 * donation_summary
+		 */
+		$fields_api->get_field( 'donor' )->show_in_export = true;
+	}
+);

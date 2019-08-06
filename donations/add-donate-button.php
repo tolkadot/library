@@ -20,14 +20,20 @@ ed_charitable_get_campaign_donate_button( 123 );
  * @return string
  */
 function ed_charitable_get_campaign_donate_button( $campaign_id ) {
+	// Get the campaign.
+    $campaign = charitable_get_campaign( $campaign_id );
+
+	// Add the donate modal window to the footer. This is invisible until the button is clicked.
+	add_action( 'wp_footer', function() use ( $campaign ) {
+		charitable_template( 'campaign/donate-modal-window.php', array( 'campaign' => $campaign ) );
+	} );
+
 	ob_start();
 
-	$campaign = charitable_get_campaign( $campaign_id );
-
+	// Render the donate button.
 	charitable_template_donate_button( $campaign );
 
-	charitable_template( 'campaign/donate-modal-window.php', array( 'campaign' => $campaign ) );
-
+	// Load scripts that are required for the modal to work.
 	Charitable_Public::get_instance()->enqueue_donation_form_scripts();
 
 	return ob_get_clean();

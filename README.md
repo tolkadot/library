@@ -353,3 +353,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a shortcode for displaying donation forms](https://github.com/Charitable/library/blob/master/donation-form/legacy/add-donation-form-shortcode.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/legacy/set-minimum-donation-amount.php)
 - [Removing a field from the donations export](https://github.com/Charitable/library/blob/master/export/legacy/remove-formatted-address-column.php)
+- [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/legacy/add-extra-column.php)

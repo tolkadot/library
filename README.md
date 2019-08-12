@@ -133,6 +133,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the campaign slug base](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-slug-base.php)
 - [Change the campaign rewrite rules to disable the `with_front` setting](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-rewrite-to-not-use-with-front.php)
 - [Add a "Campaigns" menu tab to the WordPress dashboard](https://github.com/Charitable/library/blob/master/campaigns/add-campaigns-menu.php)
+- [Bulk update campaign end dates](https://github.com/Charitable/library/blob/master/campaigns/bulk-update-campaign-end-dates.php)
 
 ### Notifications
 

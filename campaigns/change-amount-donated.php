@@ -1,5 +1,4 @@
 <?php
-
 /**
  * This code snippet shows how you can change what amount is shown as donated for a particular campaign.
  *
@@ -9,7 +8,6 @@
  * @return  string
  */
 function ed_charitable_change_donated_amount( $amount, Charitable_Campaign $campaign, $sanitize ) {
-
     $amount = $amount * 0.9;
 
     if ( $sanitize ) {
@@ -17,7 +15,6 @@ function ed_charitable_change_donated_amount( $amount, Charitable_Campaign $camp
     }
 
     return $amount;
-
 }
 
 add_filter( 'charitable_campaign_donated_amount', 'ed_charitable_change_donated_amount', 10, 3 );

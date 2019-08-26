@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Add a text field to the donation form.
  *

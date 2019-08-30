@@ -16,6 +16,7 @@ add_action(
 					'value_callback' => function( Charitable_Abstract_Donation $donation, $key ) {
 						return $donation->get_donation_plan_id();
 					},
+					'donation_form'  => false,
 					'admin_form'     => array(
 						'priority' => 10,
 						'type'     => 'text',

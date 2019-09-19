@@ -242,6 +242,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the Campaign Details header](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/rename-campaign-details-section-title.php)
 - [Change field labels](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-labels.php)
 - [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-editable.php)
+- [Change which fields in the Your Details section are required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-fields-required.php)
 - [Remove the campaign length field and replace with an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
 - [Add start date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-start-date-field.php)
 - [Add field to "Who Are You Raising Money For?" section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-field-to-recipient-details.php)

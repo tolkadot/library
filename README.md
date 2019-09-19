@@ -35,6 +35,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add HTML after form fields](https://github.com/Charitable/library/tree/master/forms/general/add-html-after-form-fields.php)
 - [Add a description/paragraph field to a form](https://github.com/Charitable/library/tree/master/forms/general/add-description-field.php)
 - [Add arbitrary HTML to a form](https://github.com/Charitable/library/tree/master/forms/general/add-html.php)
+- [Applying a `pattern` attribute to a form field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
 
 ### Donation form
 
@@ -52,6 +53,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Moving fields in relation to each other](https://github.com/Charitable/library/blob/master/donation-form/move-fields.php)
 - [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
+- [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
 - [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
@@ -153,6 +155,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the organisation field](https://github.com/Charitable/library/blob/master/profile-form/remove-organisation-field.php)
 - [Add a field to the "Your Details" section](https://github.com/Charitable/library/blob/master/profile-form/add-user-field.php)
 - [Keep a user's Display Name the same as their Login name](https://github.com/Charitable/library/blob/master/profile-form/keep-username-as-display-name.php)
+- [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
 
 ### Registration form
 

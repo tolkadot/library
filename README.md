@@ -54,6 +54,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Moving fields in relation to each other](https://github.com/Charitable/library/blob/master/donation-form/move-fields.php)
 - [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
 - [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
+- [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
 - [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
@@ -156,6 +157,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a field to the "Your Details" section](https://github.com/Charitable/library/blob/master/profile-form/add-user-field.php)
 - [Keep a user's Display Name the same as their Login name](https://github.com/Charitable/library/blob/master/profile-form/keep-username-as-display-name.php)
 - [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
+- [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
 
 ### Registration form
 
@@ -248,6 +250,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change which fields in the Your Details section are required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-fields-required.php)
 - [Remove the campaign length field and replace with an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
 - [Add start date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-start-date-field.php)
+- [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
 - [Add field to "Who Are You Raising Money For?" section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-field-to-recipient-details.php)
 - [Add recipient type to "who Are You Raising Money For?" section, with a custom field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-school-recipient-type.php)
 - [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-user-details-to-funds-recipient-information.php)

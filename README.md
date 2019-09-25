@@ -216,7 +216,6 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Modify the arguments sent to PayFast](https://github.com/Charitable/library/blob/master/gateways/payfast/modify-payment-args.php)
 
-
 ### Extensions:
 
 #### Charitable Ambassadors
@@ -353,6 +352,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Alone - Campaign grid (removed the progress bar)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-grid-remove-progress-bar.php)
 - [Born to Give - Campaign page (remove donation stats, goal & time remaining)](https://github.com/Charitable/library/blob/master/themes/born-to-give/single-campaign.php)
 - [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
+
+## Tutorials
+
+- []
+
 ### Legacy snippets
 
 #### Pre Charitable 1.6

@@ -97,10 +97,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Emails
 
+#### General
 - [Add email headers](https://github.com/Charitable/library/blob/master/emails/add-email-headers.php)
-- [Copy the donation receipt to the website admin](https://github.com/Charitable/library/blob/master/emails/copy-donation-receipt-to-admin.php)
-- [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
-- [Send donation receipt to customer for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-receipt-for-pending-offline-donations.php)
 - [Remove campaign name from donation summaries in emails](https://github.com/Charitable/library/blob/master/emails/remove-campaign-name-from-donation-summary.php)
 - [Add a custom campaign field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-campaign-field.php)
 - [Add a custom donation field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-donation-field.php)
@@ -108,6 +106,14 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
 - [Add the payment method used for the donation to donation emails](https://github.com/Charitable/library/blob/master/emails/add-gateway-donation-field.php)
 - [Change the footer text in all emails](https://github.com/Charitable/library/blob/master/emails/change-footer-text.php)
+
+#### Donation Receipt
+- [Send donation receipt to customer for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-receipt-for-pending-offline-donations.php)
+- [Turn off the donation receipt for Offline donations](https://github.com/Charitable/library/blob/master/emails/disable-donation-receipt-for-offline-donations.php)
+- [Copy the donation receipt to the website admin](https://github.com/Charitable/library/blob/master/emails/copy-donation-receipt-to-admin.php)
+
+#### Donation Notification
+- [Send donation notifications to admin for Offline donations that are Pending](https://github.com/Charitable/library/blob/master/emails/send-donation-notification-for-pending-offline-donations.php)
 
 ### Campaigns
 

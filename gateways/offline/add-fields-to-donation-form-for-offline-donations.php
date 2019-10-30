@@ -71,3 +71,25 @@ add_filter(
     10,
     2
 );
+
+/**
+ * Finally, when saving the donation, make sure that these
+ * values are added to the 'meta' array of fields to save.
+ */
+add_filter(
+    'charitable_donation_form_submission_values',
+    /**
+     * The callback function. This will filter the default
+     * array of form submission values.
+     *
+     * @param  array $values The submitted values as a structured array.
+     * @return array
+     */
+    function( $values ) {
+        foreach ( $values['gateways']['offline'] as $key => $value ) {
+            $values['meta'][ $key ] = $value;
+        }
+
+        return $values;
+    }
+);

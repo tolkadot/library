@@ -18,4 +18,4 @@ add_filter( 'charitable_donor_loop_donor_name', function( $name, $args ) {
 
     return $name;
 
-}, 10, 2 );
+}, 11, 2 );

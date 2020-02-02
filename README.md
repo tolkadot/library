@@ -248,6 +248,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change the "Goal" field to be required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/make-goal-required.php)
 - [Change the PayPal payout details field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-payout-field.php)
 - [Change the Campaign Details header](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/rename-campaign-details-section-title.php)
+- [Change the Who Are You Raising Money For? header](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/rename-campaign-details-section-title.php)
 - [Change which fields in the Your Details section are required](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-fields-required.php)
 - [Change the "Length" field to an end date field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/replace-campaign-length-with-end-date-field.php)
 - [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)

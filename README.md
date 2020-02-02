@@ -127,6 +127,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a progress bar before the campaign summary block](https://github.com/Charitable/library/blob/master/campaigns/add-progress-bar-before-summary.php)
 - [Move the campaign summary block below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-below-content.php)
 - [Move the campaign summary block & description below the Extended Description](https://github.com/Charitable/library/blob/master/campaigns/move-campaign-summary-description-below-content.php)
+- [Change the campaign finished notice](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-finished-notice.php)
 
 #### Campaign Grid/Loop
 - [Remove the funds raised & progress bar in the campaigns grid](https://github.com/Charitable/library/blob/master/campaigns/remove-campaign-stats-loop.php)

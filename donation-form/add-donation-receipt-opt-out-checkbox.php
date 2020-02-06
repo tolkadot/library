@@ -1,45 +1,58 @@
-<?php 
+<?php
+/**
+ * In this function we register a new donation field with a
+ * key of `receipt_opt_out`. If the donor checks this, it means
+ * they don't want to receive their donation receipt.
+ */
+add_action(
+	'init',
+	function() {
+		$field = new Charitable_Donation_Field(
+			'receipt_opt_out',
+			array(
+				'label'          => 'Donation receipt opt-out',
+				'data_type'      => 'meta',
+				'donation_form'  => array(
+					'label'   => 'I do not need a receipt.',
+					'type'    => 'checkbox',
+					'default' => 0,
+					'section' => 'meta',
+				),
+				'show_in_meta'   => true,
+				'show_in_export' => true,
+				'email_tag'      => false,
+			)
+		);
+
+		charitable()->donation_fields()->register_field( $field );
+	}
+);
 
 /**
- * Add a checkbox on the donation form to ask the donor whether they would like to receive a donation receipt.
+ * This function checks whether to send the donation receipt.
  *
- * @return  void
+ * Since our checkbox was set up in such a way that people have to
+ * check it to opt out of getting the receipt, we want to return true
+ * if that checkbox was not checked, and false otherwise.
+ *
+ * @param  boolean             $send     Whether to send the email. This defaults to true,
+ *                                       so if it has been set to false already, we will
+ *                                       assume we don't want to send it.
+ * @param  Charitable_Donation $donation The donation object.
+ * @return boolean
  */
-function ed_add_donation_receipt_opt_out_checkbox() {
-    $ticked = isset( $_POST[ 'donation_receipt_optout' ] ) && $_POST[ 'donation_receipt_optout' ];
-    ?>
-<div id="charitable_field_donation_receipt_optout" class="charitable-form-field charitable-form-field-checkbox">
-    <input type="checkbox" name="donation_receipt_optout" value="1" <?php checked( $ticked ) ?> />
-    <label for="charitable_field_donation_receipt_optout"><?php _e( 'I do not want to receive a receipt for tax deduction purposes.', 'your-namespace' ) ?></label>
-</div>
-    <?php 
+function ed_charitable_check_send_donation_receipt_email( $send, Charitable_Donation $donation ) {
+	/* If it's already blocked, we don't need to do anything else. */
+	if ( ! $send ) {
+		return $send;
+	}
+
+	/* We return false (i.e. we don't want to send the email) if `receipt_opt_out` is true. */
+	return ! $donation->get( 'receipt_opt_out' );
 }
 
-add_filter( 'charitable_donation_form_donor_fields_after', 'ed_add_donation_receipt_opt_out_checkbox' );
+/* Block it for normal donations. */
+add_filter( 'charitable_send_donation_receipt', 'ed_charitable_check_send_donation_receipt_email', 10, 2 );
 
-/**
- * Add donation_receipt_optout to the list of meta fields to be saved. 
- *
- * @param   mixed[] $meta
- * @param   int $donation_id
- * @param   Charitable_Donation_Processor $processor
- * @return  mixed[]
- */
-function ed_save_donation_receipt_opt_out_meta_field( $meta, $donation_id, Charitable_Donation_Processor $processor ) {
-    $meta[ 'donation_receipt_optout' ] = $processor->get_donation_data_value( 'donation_receipt_optout' );    
-    return $meta;
-}
-
-add_filter( 'charitable_donation_meta', 'ed_save_donation_receipt_opt_out_meta_field', 10, 3 );
-
-/**
- * The value for donation_receipt_optout should always be either 1 or 0.  
- *
- * @return  int
- */
-function ed_save_submitted_value_donation_receipt_opt_out( $values ) {
-    $values[ 'donation_receipt_optout' ] = isset( $_POST[ 'donation_receipt_optout' ] ) && $_POST[ 'donation_receipt_optout' ] ? 1 : 0;
-    return $values;
-}
-
-add_filter( 'charitable_donation_values', 'ed_save_submitted_value_donation_receipt_opt_out' );
+/* Block the Offline donation receipt. */
+add_filter( 'charitable_send_offline_donation_receipt', 'ed_charitable_check_send_donation_receipt_email', 10, 2 );

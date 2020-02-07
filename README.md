@@ -359,6 +359,10 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Turn off the campaign archive](https://github.com/Charitable/library/blob/master/themes/reach/turn-off-campaign-archive.php)
 - [Change header home link](https://github.com/Charitable/library/blob/master/themes/reach/change-header-home-link.php)
 
+##### Overriding Templates
+
+- [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/themes/reach/templates/show-number-of-donations-in-campaign-stats.php)
+
 #### 3rd Party Themes
 
 - [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)

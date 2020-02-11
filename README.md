@@ -55,6 +55,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
 - [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
 - [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
+- [Add a default "Select your country" choice to the list of countries](https://github.com/Charitable/library/blob/master/donation-form/add-empty-option-to-countries-list.php)
 - [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)

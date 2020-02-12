@@ -35,16 +35,20 @@ add_action(
  * check it to opt out of getting the receipt, we want to return true
  * if that checkbox was not checked, and false otherwise.
  *
- * @param  boolean             $send     Whether to send the email. This defaults to true,
- *                                       so if it has been set to false already, we will
- *                                       assume we don't want to send it.
- * @param  Charitable_Donation $donation The donation object.
+ * @param  boolean                 $send     Whether to send the email. This defaults to true,
+ *                                           so if it has been set to false already, we will
+ *                                           assume we don't want to send it.
+ * @param  int|Charitable_Donation $donation The donation object or ID.
  * @return boolean
  */
-function ed_charitable_check_send_donation_receipt_email( $send, Charitable_Donation $donation ) {
+function ed_charitable_check_send_donation_receipt_email( $send, $donation ) {
 	/* If it's already blocked, we don't need to do anything else. */
 	if ( ! $send ) {
 		return $send;
+	}
+
+	if ( is_int( $donation ) ) {
+		$donation = charitable_get_donation( $donation );
 	}
 
 	/* We return false (i.e. we don't want to send the email) if `receipt_opt_out` is true. */

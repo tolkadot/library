@@ -153,6 +153,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Send notification emails to the admin & new user when someone registers](https://github.com/Charitable/library/blob/master/notifications/send-notifications-on-user-registration.php) (credit: [altatof](https://github.com/altatof))
 
+### Users
+
+- [Allow admin access for donors and campaign creators](https://github.com/Charitable/library/blob/master/users/allow-admin-access.php)
+- [Show the admin bar to donors and campaign creators](https://github.com/Charitable/library/blob/master/users/show-admin-bar.php)
+
 ### Login form
 
 - [Change the arguments passed to the login form (uses `wp_login_form()`)](https://github.com/Charitable/library/blob/master/login-form/change-login-form-arguments.php)

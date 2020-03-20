@@ -190,6 +190,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Donors
 
 - [Only show the donor's first name and initial of last name](https://github.com/Charitable/library/blob/master/donors/change-donor-name-display.php)
+- [Include donors with pending donations](https://github.com/Charitable/library/blob/master/donors/include-pending-donors.php)
 
 ### Styles
 

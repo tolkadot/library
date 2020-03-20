@@ -7,7 +7,7 @@
 add_filter(
 	'charitable_donors_widget_donor_query_args',
 	function( $query_args ) {
-		$query_args['status'][] = 'charitable-pending';
+		$query_args['status'] = [ 'charitable-pending', 'charitable-completed', 'charitable-preapproved' ];
 		return $query_args;
 	}
 );

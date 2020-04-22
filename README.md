@@ -221,6 +221,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Automatically mark Offline donations as Paid](https://github.com/Charitable/library/blob/master/donations/auto-complete-offline-donations.php)
 - [Send the Campaign Creator Donation Notification for Offline donations when they're pending](https://github.com/Charitable/library/blob/master/extensions/ambassadors/emails/send-creator-donation-notification-for-pending-offline-donations.php)
 - [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
+- [Disable Offline payment method for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/disable-recurring-offline-donations.php)
 
 #### Stripe
 
@@ -316,6 +317,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set a fixed recurring donation amount](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-fixed-recurring-donation-amount.php)
 - [Automatically check the "Make it monthly" checkbox in the donation form](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/pre-check-recurring-donation-checkbox.php)
 - [Do not send recurring emails for pending donations unless they are offline](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-recurring-emails-for-pending-donations.php)
+- [Disable Offline payment method for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/disable-recurring-offline-donations.php)
 - [Register recurring donation subscription ID field](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/register-donation-plan-id-field.php)
 - [Set a custom donation receipt page for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-custom-receipt-page-for-recurring.php)
 - [Add an option to set the parent donation when creating/editing a donation manually](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-donation-plan-field.php)

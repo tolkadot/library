@@ -53,32 +53,45 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Changing fields & other
 
 - [Moving fields in relation to each other](https://github.com/Charitable/library/blob/master/donation-form/move-fields.php)
-- [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
-- [Change State field to a dropdown list of US states, with a default](https://github.com/Charitable/library/blob/master/donation-form/set-state-field-to-us-states-dropdown-with-default.php)
-- [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
-- [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
-- [Add a default "Select your country" choice to the list of countries](https://github.com/Charitable/library/blob/master/donation-form/add-empty-option-to-countries-list.php)
 - [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
+- [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
+- [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
+- [Change the section headers](https://github.com/Charitable/library/blob/master/donation-form/change-section-headers.php)
+- [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
+- [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
+- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/offline/add-offline-instructions-to-donation-form.php)
+- [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
+- [Prevent donor fields from being hidden by default for logged in users](https://github.com/Charitable/library/blob/master/donation-form/do-not-hide-donor-fields-for-logged-in-users.php)
+
+##### City
+- [Change the City field to a dropdown/select field](https://github.com/Charitable/library/blob/master/donation-form/change-city-field-to-select.php)
+
+##### State
+- [Change State field to Province](https://github.com/Charitable/library/blob/master/donation-form/change-state-to-province.php)
+- [Change State field to a dropdown list of US states, with a default](https://github.com/Charitable/library/blob/master/donation-form/set-state-field-to-us-states-dropdown-with-default.php)
+
+##### Postcode
+- [Change Postcode field to ZIP Code](https://github.com/Charitable/library/blob/master/donation-form/change-postcode-to-zipcode.php)
+- [Require a specific format for the Postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
+
+##### Country
+- [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
+- [Add a default "Select your country" choice to the list of countries](https://github.com/Charitable/library/blob/master/donation-form/add-empty-option-to-countries-list.php)
+
+##### Donation Amounts
+- [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
+- [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 - [Set the default donation amount for all campaigns](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount.php)
 - [Set the default donation amount on a per-campaign basis](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount-per-campaign.php)
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-minimum-donation-amount.php)
 - [Set the maximum donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-maximum-donation-amount.php)
 - [Allow people to make $0 "donations"](https://github.com/Charitable/library/blob/master/donation-form/allow-zero-dollar-donations.php)
-- [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)
-- [Display a specific donation form](https://github.com/Charitable/library/blob/master/donation-form/display-donation-form.php)
-- [Move donor details section to end of form, after payment form](https://github.com/Charitable/library/blob/master/donation-form/move-user-fields-in-donation-form.php)
-- [Add an opt-out for receiving the donation receipt](https://github.com/Charitable/library/blob/master/donation-form/add-donation-receipt-opt-out-checkbox.php)
-- [Show the Offline payment instructions in the donation form](https://github.com/Charitable/library/blob/master/gateways/offline/add-offline-instructions-to-donation-form.php)
-- [Change the donation cancellation URL](https://github.com/Charitable/library/blob/master/endpoints/change-donation-cancellation-url.php)
-- [Change the City field to a dropdown/select field](https://github.com/Charitable/library/blob/master/donation-form/change-city-field-to-select.php)
-- [Change the section headers](https://github.com/Charitable/library/blob/master/donation-form/change-section-headers.php)
-- [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
-- [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
+
+##### Terms & Conditions
 - [Remove Terms & Conditions, Privacy Policy and User Consent fields](https://github.com/Charitable/library/blob/master/donation-form/remove-terms-fields.php)
-- [Prevent donor fields from being hidden by default for logged in users](https://github.com/Charitable/library/blob/master/donation-form/do-not-hide-donor-fields-for-logged-in-users.php)
 
 #### Admin donation form (manual donations)
 

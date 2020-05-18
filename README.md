@@ -247,6 +247,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### PayFast
 
 - [Modify the arguments sent to PayFast](https://github.com/Charitable/library/blob/master/gateways/payfast/modify-payment-args.php)
+- [Modify the payment reference/description sent to PayFast](https://github.com/Charitable/library/blob/master/gateways/payfast/change-payment-description.php)
 
 ### Extensions:
 

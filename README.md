@@ -79,6 +79,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ##### Country
 - [Change the Countries list to only list a few specific countries](https://github.com/Charitable/library/blob/master/forms/general/change-accepted-countries-list.php)
+- [Change the Countries field to a hidden field with a default country for all donors](https://github.com/Charitable/library/blob/master/donation-form/change-country-field-to-hidden.php)
 - [Add a default "Select your country" choice to the list of countries](https://github.com/Charitable/library/blob/master/donation-form/add-empty-option-to-countries-list.php)
 
 ##### Donation Amounts

@@ -363,6 +363,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 #### Charitable Donor Comments
 
+- [Remove the donor comments from the Donors shortcode & Donors widget](https://github.com/Charitable/library/blob/master/extensions/donor-comments/hide-donor-comments-in-shortcode-widget.php)
 - [Change the Donor Comment field placeholder & required status for a particular campaign](https://github.com/Charitable/library/blob/master/extensions/donor-comments/change-donation-form-field-on-specific-campaign.php)
 
 #### Charitable Anonymous Donations

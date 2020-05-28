@@ -1,17 +1,22 @@
-<?php 
+<?php
+/**
+ * As of Ambassadors 2.0, this is no longer required since Ambassadors
+ * has built-in support for adding the submission data to the "Submission
+ * Details" tab.
+ */
 
 /**
  * This example shows how to add extra fields of information to the Funds Recipient
  * tab, which is displayed for all campaigns in the admin.
  *
- * In the example below, all of the fields in the User Details section of the frontend 
- * campaign form are added to the table. If you only want to add one or two fields, 
- * you can add them as follows: 
+ * In the example below, all of the fields in the User Details section of the frontend
+ * campaign form are added to the table. If you only want to add one or two fields,
+ * you can add them as follows:
 
 $key = 'field-you-want-to-add';
 
 $data[ 'field-you-want-to-add' ] = array(
-    'label' => __( 'My Field Label', 'your-namespace' ), 
+    'label' => __( 'My Field Label', 'your-namespace' ),
     'value' => isset( $submitted[ $key ] ) ? $submitted[ $key ] : '-'
 );
 

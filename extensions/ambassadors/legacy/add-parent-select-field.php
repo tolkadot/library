@@ -1,5 +1,10 @@
 <?php
 /**
+ * As of Ambassadors 2.0, this is no longer required since Ambassadors
+ * has built-in support for creating fundraisers for parent campaigns.
+ */
+
+/**
  * This function adds a select field to the campaign submission form
  * where campaign creators can select their parent campaign.
  *

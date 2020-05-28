@@ -1,14 +1,14 @@
-<?php 
+<?php
 /**
  * Set campaigns to published after they are submitted.
- * 
+ *
  * @param   array $submitted
- * @param   int $campaign_id     
+ * @param   int $campaign_id
  */
 function ed_auto_approve_campaigns( $submitted, $campaign_id ) {
     /**
-     * Check whether the campaign is pending. Don't touch 
-     * campaigns that are being previewed or have already 
+     * Check whether the campaign is pending. Don't touch
+     * campaigns that are being previewed or have already
      * been published.
      */
     if ( 'pending' == get_post_status( $campaign_id ) ) {

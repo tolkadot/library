@@ -295,13 +295,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove the "Your Details" section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/remove-user-fields.php)
 
 *Other customizations*
-- [Automatically approve campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/auto-approve-campaigns.php)
+
 - [Allow ambassadors to edit the goal of an active campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/edit-live-campaign-goal.php)
 - [Add recipient type to "Who Are You Raising Money For?" section, with a custom field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-school-recipient-type.php)
-- [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-user-details-to-funds-recipient-information.php)
 - [Automatically set the Suggested Donations and custom donation settings](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/automatically-set-donation-options.php)
 - [Automatically set the campaign parent for all submitted campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/set-campaign-parent.php)
-- [Allow campaign creators to select the campaign parent](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-parent-select-field.php)
 - [Automatically set the campaign's end date](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/automatically-set-end-date.php)
 - [Redirect logged out users to the registration page](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-logged-out-users-to-registration-page.php)
 - [Only allow users to create one campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/only-allow-one-campaign-per-user.php)
@@ -421,3 +419,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set the minimum donation amount](https://github.com/Charitable/library/blob/master/donation-form/legacy/set-minimum-donation-amount.php)
 - [Removing a field from the donations export](https://github.com/Charitable/library/blob/master/export/legacy/remove-formatted-address-column.php)
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/legacy/add-extra-column.php)
+
+#### Pre Charitable Ambassadors 2.0
+- [Automatically approve campaigns](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/auto-approve-campaigns.php)
+- [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-user-details-to-funds-recipient-information.php)
+- [Allow campaign creators to select the campaign parent](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-parent-select-field.php)

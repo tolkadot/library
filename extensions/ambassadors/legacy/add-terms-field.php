@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Add a terms and conditions section to the campaign form.
  *
@@ -19,7 +19,7 @@ function ed_charitable_add_terms_and_conditions_to_campaign_form( $fields, $form
             ),
             'terms_agreement' => array(
                 'label'     => __( 'Yes, I agree to the terms and conditions.', 'ed-charitable' ),
-                'type'      => 'checkbox', 
+                'type'      => 'checkbox',
                 'value'     => 1,
                 'priority'  => 2,
                 'required'  => true,

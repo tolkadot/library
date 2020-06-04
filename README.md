@@ -425,3 +425,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add user details to funds recipient information](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-user-details-to-funds-recipient-information.php)
 - [Allow campaign creators to select the campaign parent](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-parent-select-field.php)
 - [Add a "Terms and Conditions" section to the campaign form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-terms-field.php)
+- [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/change-field-editable.php)

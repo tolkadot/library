@@ -4,11 +4,11 @@
  * and vice versa, in the campaign form.
  *
  * Non-editable fields:
- * 
+ *
  * post_title - Campaign Name
  * goal - Fundraising Goal ($)
  * length - Length
- * 
+ *
  * Editable fields:
  *
  * description - Short Description
@@ -17,22 +17,22 @@
  * campaign_category - Categories
  * campaign_tag - Tags
  *
+ * This example will only work on Ambassadors 2+. If you are
+ * using a previous version of Ambassadors, see:
+ *
+ * @see https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/change-field-editable.php
+ *
  * @param   array $fields The fields.
  * @return  array
  */
-function ed_charitable_change_field_editable( $fields ) {
+add_action( 'init', function( $fields ) {
+	$fields = charitable()->campaign_fields();
 
-    /**
-     * Make the post title field editable.
-     */
-    $fields['post_title']['editable'] = true;
+    // Get the goal field and make it editable.
+	$goal = $fields->get_field( 'goal' );
+	$goal->set( 'campaign_form', 'editable', true );
 
-    /**
-     * Make the description field non-editable.
-     */
-    $fields['description']['editable'] = false;
-
-    return $fields;
-}
-
-add_filter( 'charitable_campaign_submission_campaign_fields', 'ed_charitable_change_field_editable' );
+    // Get the description field and make it non-editable.
+	$description = $fields->get_field( 'description' );
+    $description->set( 'campaign_form', 'editable', false );
+} );

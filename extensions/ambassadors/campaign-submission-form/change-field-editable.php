@@ -28,11 +28,11 @@
 add_action( 'init', function( $fields ) {
 	$fields = charitable()->campaign_fields();
 
-    // Get the goal field and make it editable.
+	// Get the goal field and make it editable.
 	$goal = $fields->get_field( 'goal' );
 	$goal->set( 'campaign_form', 'editable', true );
 
-    // Get the description field and make it non-editable.
+	// Get the description field and make it non-editable.
 	$description = $fields->get_field( 'description' );
-    $description->set( 'campaign_form', 'editable', false );
+	$description->set( 'campaign_form', 'editable', false );
 } );

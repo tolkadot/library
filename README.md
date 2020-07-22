@@ -306,6 +306,9 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Prevent users from editing a published campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/prevent-editing-of-published-campaigns.php)
 - [Redirect to the campaign after submitting the form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/redirect-to-campaign-after-submission.php)
 
+##### Fundraiser Form
+- [Inherit the parent campaign's categories](https://github.com/Charitable/library/blob/master/extensions/ambassadors/fundraiser-submission-form/inherit-categories-from-parent.php)
+
 ##### Campaigns
 
 - [Remove the "Edit" link added by some themes](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaigns/remove-edit-post-link-from-campaigns.php)

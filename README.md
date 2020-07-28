@@ -119,6 +119,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove campaign name from donation summaries in emails](https://github.com/Charitable/library/blob/master/emails/remove-campaign-name-from-donation-summary.php)
 - [Add a custom campaign field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-campaign-field.php)
 - [Add a custom donation field to display in emails](https://github.com/Charitable/library/blob/master/emails/add-custom-donation-field.php)
+- [Add a custom email field to show in campaign or donation-specific emails](https://github.com/Charitable/library/blob/master/emails/add-custom-campaign-and-donation-field.php)
 - [Add an email tag for an existing field (Donation Fields API)](https://github.com/Charitable/library/blob/master/emails/add-email-tag-for-donation-field.php)
 - [Add the offline payment instructions to donation emails](https://github.com/Charitable/library/blob/master/emails/add-offline-instructions-field.php)
 - [Add the payment method used for the donation to donation emails](https://github.com/Charitable/library/blob/master/emails/add-gateway-donation-field.php)

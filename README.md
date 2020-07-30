@@ -212,6 +212,11 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 - [Change the default highlight colour](https://github.com/Charitable/library/blob/master/styles/set-default-highlight-colour.php)
 
+### Privacy
+
+- [Show whether terms and conditions were accepted in the admin and export](https://github.com/Charitable/library/blob/master/privacy/add-accept-terms-field.php)
+- [Remove Terms & Conditions, Privacy Policy and User Consent fields](https://github.com/Charitable/library/blob/master/donation-form/remove-terms-fields.php)
+
 ### Export
 
 - [Add a column to the Donations export](https://github.com/Charitable/library/blob/master/export/add-extra-column.php)

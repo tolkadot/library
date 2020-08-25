@@ -314,6 +314,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ##### Fundraiser Form
 - [Inherit the parent campaign's categories](https://github.com/Charitable/library/blob/master/extensions/ambassadors/fundraiser-submission-form/inherit-categories-from-parent.php)
+- [Add a field to the fundraiser form for a specific parent campaign](https://github.com/Charitable/library/blob/master/extensions/ambassadors/fundraiser-submission-form/add-field-to-specific-fundraiser-form.php)
 
 ##### Campaigns
 

@@ -1,5 +1,11 @@
 <?php
 /**
+ * NOTE: This code snippet must be included in your theme's functions.php file,
+ * or in a custom plugin. It will cause an error if you add it using a plugin
+ * like Code Snippets.
+ */
+
+/**
  * This function disables donations to campaigns after they have reached
  * their goal.
  *
@@ -51,24 +57,23 @@ add_filter( 'charitable_campaign_can_receive_donations', 'ed_charitable_disable_
  */
 if ( ! function_exists( 'charitable_template_campaign_time_left' ) ) {
 
-    function charitable_template_campaign_time_left( $campaign ) {
-        if ( $campaign->is_endless() ) {
-            return false;
-        }
+	function charitable_template_campaign_time_left( $campaign ) {
+		if ( $campaign->is_endless() ) {
+			return false;
+		}
 
-        /**
-         * If the campaign has a goal and it has achieved that goal, show
-         * that instead of the time left.
-         */
-        if ( $campaign->has_goal() && $campaign->has_achieved_goal() ) {
-            ?>
-            <div class="campaign-time-left campaign-summary-item"><?php _e( 'This campaign has reached its goal.', 'ed-charitable' ); ?></div>
-            <?php
-        } else {
-            charitable_template( 'campaign/summary-time-left.php', array( 'campaign' => $campaign ) );
-        }
+		/**
+		 * If the campaign has a goal and it has achieved that goal, show
+		 * that instead of the time left.
+		 */
+		if ( $campaign->has_goal() && $campaign->has_achieved_goal() ) {
+			?>
+			<div class="campaign-time-left campaign-summary-item"><?php _e( 'This campaign has reached its goal.', 'ed-charitable' ); ?></div>
+			<?php
+		} else {
+			charitable_template( 'campaign/summary-time-left.php', array( 'campaign' => $campaign ) );
+		}
 
-        return true;
-    }
-
+		return true;
+	}
 }

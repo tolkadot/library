@@ -55,6 +55,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Moving fields in relation to each other](https://github.com/Charitable/library/blob/master/donation-form/move-fields.php)
 - [Make a donation field required](https://github.com/Charitable/library/blob/master/donation-form/make-single-field-required.php)
 - [Make the donor address fields required](https://github.com/Charitable/library/blob/master/donation-form/make-donor-address-required.php)
+- [Replace label with placeholder attribute for each donation field](https://github.com/Charitable/library/blob/master/donation-form/add-field-placeholders.php)
 - [Remove donation form fields](https://github.com/Charitable/library/blob/master/donation-form/remove-donation-form-fields.php)
 - [Remove login form](https://github.com/Charitable/library/blob/master/donation-form/remove-login-form.php)
 - [Add campaign title as a header](https://github.com/Charitable/library/blob/master/donation-form/add-campaign-title-to-start.php)

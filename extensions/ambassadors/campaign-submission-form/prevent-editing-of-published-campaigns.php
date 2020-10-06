@@ -36,16 +36,18 @@ add_filter( 'charitable_campaign_submission_form_args', 'ed_charitable_disable_e
 /**
  * Change the campaign editing link so it only appears for non-published campaigns.
  */
-function charitable_ambassadors_template_edit_campaign_link() {
-    if ( ! is_single()
-        || 'campaign' != get_post_type()
-        || 'publish' == get_post_status()
-        || ! charitable_is_current_campaign_creator( get_the_ID() )
-        ) {
-        return false;
+if ( ! function_exists( 'charitable_ambassadors_template_edit_campaign_link' ) ) {
+    function charitable_ambassadors_template_edit_campaign_link() {
+        if ( ! is_single()
+            || 'campaign' != get_post_type()
+            || 'publish' == get_post_status()
+            || ! charitable_is_current_campaign_creator( get_the_ID() )
+            ) {
+            return false;
+        }
+
+        charitable_ambassadors_template( 'edit-campaign-link.php' );
+
+        return true;
     }
-
-    charitable_ambassadors_template( 'edit-campaign-link.php' );
-
-    return true;
 }

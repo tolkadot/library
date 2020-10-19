@@ -39,10 +39,10 @@ add_filter( 'charitable_ambassadors_ambassador_recipient_type', 'ed_charitable_c
 /**
  * In this example we're changing the "Fundraisers for existing campaigns"  recipient type.
  */
-function ed_charitable_change_ambassador_recipient_type_details( $details ) {
+function ed_charitable_change_fundraiser_recipient_type_details( $details ) {
 	$details['label']       = 'Your Preferred Label for Another Campaign';
 	$details['description'] = 'Your preferred description for Another Campaign';
 	return $details;
 }
 
-add_filter( 'charitable_ambassadors_fundraiser_recipient_type', 'ed_charitable_change_ambassador_recipient_type_details' );
+add_filter( 'charitable_ambassadors_fundraiser_recipient_type', 'ed_charitable_change_fundraiser_recipient_type_details' );

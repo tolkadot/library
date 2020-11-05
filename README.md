@@ -157,6 +157,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Display the campaign creator name in the campaign page and [campaigns] output](https://github.com/Charitable/library/blob/master/campaigns/add-creator-name.php)
 
 #### Other
+- [Add a progress bar shortcode](https://github.com/Charitable/library/blob/master/campaigns/add-campaign-progress-bar-shortcode.php)
 - [Register a Post Parent field](https://github.com/Charitable/library/blob/master/campaigns/add-post-parent-field.php)
 - [Disable description text santization](https://github.com/Charitable/library/blob/master/campaigns/disable-description-text-sanitization.php)
 - [Round the percentage donated to a whole number](https://github.com/Charitable/library/blob/master/campaigns/round-percent-donated-to-whole-number.php)

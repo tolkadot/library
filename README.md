@@ -384,7 +384,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Charitable Gift Aid
 
 - [Add additional titles](https://github.com/Charitable/library/blob/master/extensions/gift-aid/add-additional-titles.php)
-- [Allow Gift Aid to be toggled on/off when editing or creating a donation in the admin](https://github.com/Charitable/library/blob/master/extensions-gift-aid-add-gift-aid-checkbox-to-admin-form.php)
+- [Allow Gift Aid to be toggled on/off when editing or creating a donation in the admin](https://github.com/Charitable/library/blob/master/extensions/gift-aid/add-gift-aid-checkbox-to-admin-form.php)
 
 ### Themes
 

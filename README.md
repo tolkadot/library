@@ -333,6 +333,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Charitable Easy Digital Downloads Connect
 
 - [Add {campaign_donations} email tag](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
+- [Add the parent campaign to the output of the {campaign_donations_list} email tag](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-parent-campaigns-to-email-tag.php)
 - [Add a custom checkout field for specific campaigns](https://github.com/Charitable/library/blob/master/extensions/edd-connect/add-campaign-donations-email-tag.php)
 - [Show the Easy Digital Downloads gateway used for donations](https://github.com/Charitable/library/blob/master/extensions/edd-connect/set-gateway-label.php)
 

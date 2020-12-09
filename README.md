@@ -275,7 +275,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add a "Gallery" field to the campaign form and display the gallery on the campaign automatically](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/add-gallery-field.php)
 - [Change field labels](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-labels.php)
 - [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-editable.php)
-- [Change the categories & tags fields into dropdown (select) fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-category-field-to-select.php)
+- [Change the options shown for the categories field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-category-field-options.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 - [Change which fields are required in the Campaign Details section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-campaign-fields-required.php)
 - [Change which fields are required in the Your Details section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-user-fields-required.php)
@@ -441,3 +441,4 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Allow campaign creators to select the campaign parent](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-parent-select-field.php)
 - [Add a "Terms and Conditions" section to the campaign form](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-terms-field.php)
 - [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/change-field-editable.php)
+- [Change the categories & tags fields into dropdown (select) fields](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-category-field-to-select.php)

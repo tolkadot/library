@@ -276,6 +276,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Change field labels](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-labels.php)
 - [Change editable fields to non-editable and vice versa](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-field-editable.php)
 - [Change the options shown for the categories field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-category-field-options.php)
+- [Change the categories field to be a required field](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-category-field-to-required.php)
 - [Change the recipient type labels for "Personal Causes" and "Your Organization"](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-recipient-type-labels.php)
 - [Change which fields are required in the Campaign Details section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-campaign-fields-required.php)
 - [Change which fields are required in the Your Details section](https://github.com/Charitable/library/blob/master/extensions/ambassadors/campaign-submission-form/change-user-fields-required.php)
@@ -413,10 +414,6 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Alone - Campaign grid (removed the progress bar)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-grid-remove-progress-bar.php)
 - [Born to Give - Campaign page (remove donation stats, goal & time remaining)](https://github.com/Charitable/library/blob/master/themes/born-to-give/single-campaign.php)
 - [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
-
-## Tutorials
-
-- []
 
 ### Legacy snippets
 

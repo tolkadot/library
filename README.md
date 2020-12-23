@@ -402,7 +402,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Prevent the donation receipt from loading in the user dashboard](https://github.com/Charitable/library/blob/master/themes/reach/do-not-load-receipt-in-user-dashboard.php)
 - [Turn off the campaign archive](https://github.com/Charitable/library/blob/master/themes/reach/turn-off-campaign-archive.php)
 - [Change header home link](https://github.com/Charitable/library/blob/master/themes/reach/change-header-home-link.php)
-
+- [Remove campaign page donation stats](https://github.com/Charitable/library/blob/master/themes/reach/remove-campaign-donation-stats.php)
 ##### Overriding Templates
 
 - [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/themes/reach/templates/show-number-of-donations-in-campaign-stats.php)

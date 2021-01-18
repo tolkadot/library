@@ -351,6 +351,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add an option to set the parent donation when creating/editing a donation manually](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-donation-plan-field.php)
 - [Do not send any emails for renewal donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-emails-for-renewal-donations.php)
 - [Add weekly donation support (only tested with Stripe)](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-weekly-donations.php)
+- [Add meta to renewal donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-meta-to-renewals.php)
 
 #### Charitable Newsletter Connect
 

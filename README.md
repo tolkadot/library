@@ -350,9 +350,9 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Set a custom donation receipt page for recurring donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/set-custom-receipt-page-for-recurring.php)
 - [Add an option to set the parent donation when creating/editing a donation manually](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-donation-plan-field.php)
 - [Do not send any emails for renewal donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/do-not-send-emails-for-renewal-donations.php)
-- [Add weekly donation support (only tested with Stripe)](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-weekly-donations.php)
 - [Disable some recurring donation periods](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/disable-recurring-donation-periods.php)
 - [Add meta to renewal donations](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-meta-to-renewals.php)
+- [Add a custom recurring donation length](https://github.com/Charitable/library/blob/master/extensions/recurring-donations/add-recurring-donation-length.php)
 
 #### Charitable Newsletter Connect
 

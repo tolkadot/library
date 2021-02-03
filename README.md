@@ -35,7 +35,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Add HTML after form fields](https://github.com/Charitable/library/tree/master/forms/general/add-html-after-form-fields.php)
 - [Add a description/paragraph field to a form](https://github.com/Charitable/library/tree/master/forms/general/add-description-field.php)
 - [Add arbitrary HTML to a form](https://github.com/Charitable/library/tree/master/forms/general/add-html.php)
-- [Applying a `pattern` attribute to a form field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
+- [Applying a `pattern` attribute to the postcode field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-field.php)
+- [Applying a `pattern` attribute to the phone field](https://github.com/Charitable/library/blob/master/forms/general/set-pattern-attribute-on-phone-field.php)
 
 ### Donation form
 

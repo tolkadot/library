@@ -408,7 +408,9 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove campaign page donation stats](https://github.com/Charitable/library/blob/master/themes/reach/remove-campaign-donation-stats.php)
 ##### Overriding Templates
 
+- [Customize which campaigns show on the campaign archive template](https://github.com/Charitable/library/blob/master/themes/reach/templates/archive-campaign.php)
 - [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/themes/reach/templates/show-number-of-donations-in-campaign-stats.php)
+- [Customize the stats in the campaign grid to include the goal and progress bar](https://github.com/Charitable/library/blob/master/themes/reach/templates/customize-campaign-grid-stats.php)
 
 #### 3rd Party Themes
 

@@ -10,6 +10,12 @@ For those a little more familiar with WordPress development, you can use the sni
 
 Alternatively, you could add the snippets directly to your theme or child theme's `functions.php` file.
 
+## How to use the custom templates
+
+Customizations shown in the [custom templates](https://github.com/Charitable/library/tree/master/custom-templates/) folder should be added using your theme or child theme. The templates cannot be added using the Code Snippets plugin or a custom plugin.
+
+Each snippet shows where the tempalte should be saved in your template's folder.
+
 ## Contributing a snippet
 
 We welcome and encourage everyone to submit their code snippets. If you would like to submit your snippet, please [fork the repository](https://github.com/Charitable/library/fork) and then [create a pull request](https://github.com/Charitable/library/compare/).
@@ -407,19 +413,37 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Turn off the campaign archive](https://github.com/Charitable/library/blob/master/themes/reach/turn-off-campaign-archive.php)
 - [Change header home link](https://github.com/Charitable/library/blob/master/themes/reach/change-header-home-link.php)
 - [Remove campaign page donation stats](https://github.com/Charitable/library/blob/master/themes/reach/remove-campaign-donation-stats.php)
-##### Overriding Templates
+##### Custom Templates
 
-- [Customize which campaigns show on the campaign archive template](https://github.com/Charitable/library/blob/master/themes/reach/templates/archive-campaign.php)
-- [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/themes/reach/templates/show-number-of-donations-in-campaign-stats.php)
-- [Customize the stats in the campaign grid to include the goal and progress bar](https://github.com/Charitable/library/blob/master/themes/reach/templates/customize-campaign-grid-stats.php)
+- [Customize which campaigns show on the campaign archive template](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/archive-campaign.php)
+- [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/show-number-of-donations-in-campaign-stats.php)
+- [Customize the stats in the campaign grid to include the goal and progress bar](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/customize-campaign-grid-stats.php)
 
 #### 3rd Party Themes
 
-- [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/themes/charitas/single-campaign.php)
+- [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/custom-templates/themes/charitas/single-campaign.php)
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)
 - [Alone - Campaign grid (removed the progress bar)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-grid-remove-progress-bar.php)
-- [Born to Give - Campaign page (remove donation stats, goal & time remaining)](https://github.com/Charitable/library/blob/master/themes/born-to-give/single-campaign.php)
 - [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
+
+## Custom Templates
+
+### Donation Form
+
+- [Customize the way suggested donation amount descriptions are shown, placing them below the list of amounts](https://github.com/Charitable/library/blob/master/custom-templates/donation-form/separate-suggested-donation-amount-description.php)
+
+### Theme-Specific
+
+#### Reach
+
+- [Customize which campaigns show on the campaign archive template](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/archive-campaign.php)
+- [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/show-number-of-donations-in-campaign-stats.php)
+- [Customize the stats in the campaign grid to include the goal and progress bar](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/customize-campaign-grid-stats.php)
+
+#### Charitas
+
+- [Charitas / Charitas Lite - Single campaign page](https://github.com/Charitable/library/blob/master/custom-templates/themes/charitas/single-campaign.php)
+
 
 ### Legacy snippets
 

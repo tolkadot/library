@@ -1,7 +1,7 @@
-<?php 
+<?php
 /**
- * NOTE: This snippet will not work in versions of Charitable prior to 1.2. 
- * 
+ * NOTE: This snippet will not work in versions of Charitable prior to 1.2.
+ *
  * Set the default colour used by Charitable.
  *
  * @return  string

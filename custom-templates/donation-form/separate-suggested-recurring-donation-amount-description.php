@@ -94,6 +94,8 @@ if ( 0 === $amount ) {
 	$amount = apply_filters( 'charitable_recurring_default_donation_amount', $amount, $campaign );
 }
 
+$active_period = 'once' !== $campaign->get_initial_donation_period();
+
 /**
  * If no suggested donations and custom donations are not allowed, then quit.
  */
@@ -110,8 +112,7 @@ if ( count( $suggested_recurring_donations ) > 0 ) :
 	<ul class="recurring-donation-amounts donation-amounts">
 		<?php
 		foreach ( $suggested_recurring_donations as $suggestion ) :
-
-			$checked  = checked( $suggestion['amount'], $amount, false );
+			$checked  = $active_period && checked( $suggestion['amount'], $amount, false );
 			$field_id = esc_attr(
 				sprintf(
 					'recurring-form-%s-field-%s',
@@ -155,8 +156,7 @@ if ( count( $suggested_recurring_donations ) > 0 ) :
 		<li class="suggested-amount-description"><p><?php echo $descriptions; ?></p></li>
 		<?php
 		if ( $supports_custom_donations ) :
-
-			$has_custom_donation_amount = ! $amount_is_suggestion && $amount;
+			$has_custom_donation_amount = $active_period && ! $amount_is_suggestion && $amount;
 			?>
 			<li class="donation-amount custom-donation-amount <?php echo esc_attr( $has_custom_donation_amount ? 'selected' : '' ); ?>">
 				<span class="custom-donation-amount-wrapper">

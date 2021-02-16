@@ -121,6 +121,11 @@ if ( count( $suggested ) ) :
 			$('.suggested-amount-description').show();
 		}
 	});
+
+	$('body').on('charitable:form:loaded', function(event, helper) {
+		$('body').trigger( 'charitable:form:amount:changed', helper );
+		$('body').trigger( 'charitable:form:total:changed', helper );
+	});
 })(jQuery);
 </script>
 <style>

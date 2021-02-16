@@ -430,7 +430,8 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ### Donation Form
 
-- [Customize the way suggested donation amount descriptions are shown, placing them below the list of amounts](https://github.com/Charitable/library/blob/master/custom-templates/donation-form/separate-suggested-donation-amount-description.php)
+- [Customize the way suggested one-time donation amount descriptions are shown, placing them below the list of amounts](https://github.com/Charitable/library/blob/master/custom-templates/donation-form/separate-suggested-donation-amount-description.php)
+- [Customize the way suggested recurring donation amount descriptions are shown, placing them below the list of amounts](https://github.com/Charitable/library/blob/master/custom-templates/donation-form/separate-suggested-recurring-donation-amount-description.php)
 
 ### Theme-Specific
 

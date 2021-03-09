@@ -9,7 +9,7 @@
 function ed_charitable_allow_one_campaign_per_user( $args ) {
 
     /* Don't stop people editing existing campaigns. */
-    if ( get_query_var( 'campaign_id', false ) ) {
+    if ( get_query_var( 'campaign_id', false ) && ( ! isset( $args['parent_id'] ) || get_query_var( 'campaign_id', false ) !== $args['parent_id'] ) ) {
         return $args;
     }
 

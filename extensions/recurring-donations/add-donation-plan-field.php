@@ -43,3 +43,45 @@ add_filter(
 	10,
 	2
 );
+
+/**
+ * Prevent recurring donation receipt email from sending if we are saving the donation via the admin.
+ *
+ * @param  boolean             $send_email Whether to send the email.
+ * @param  Charitable_Donation $donation   The donation object.
+ * @return boolean
+ */
+add_filter(
+	'charitable_send_recurring_donation_receipt',
+	function( $send_email, Charitable_Donation $donation ) {
+		if ( ! $send_email ) {
+			return $send_email;
+		}
+
+		$helper = Charitable_Donation_Meta_Boxes::get_instance();
+
+		/* Don't block sending it from donation actions. */
+		if ( $helper->is_donation_action() ) {
+			return $send_email;
+		}
+
+		/* If we're not saving the donation, send the email. */
+		if ( ! $helper->is_admin_donation_save() ) {
+			return $send_email;
+		}
+
+		/* If this isn't the `charitable_after_save_donation` hook, don't send the email. */
+		if ( ! doing_action( 'charitable_after_save_donation' ) ) {
+			return false;
+		}
+
+		/* If this isn't a manually created donation, send the email. */
+		if ( 'manual' !== $donation->get_gateway() ) {
+			return $send_email;
+		}
+
+		return isset( $_POST['send_donation_receipt'] ) && $_POST['send_donation_receipt'];
+	},
+	10,
+	2
+);

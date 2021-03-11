@@ -176,6 +176,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Disable donations to a campaign after it has reached its goal](https://github.com/Charitable/library/blob/master/campaigns/disable-donations-after-goal-is-reached.php)
 - [Bulk update campaign end dates](https://github.com/Charitable/library/blob/master/campaigns/bulk-update-campaign-end-dates.php)
 - [When a campaign becomes fully funded, give it an "Funded" tag and change its end date](https://github.com/Charitable/library/blob/master/campaigns/add-tag-and-end-date-to-funded-campaign.php)
+- [Add a field to the campaign editor to pick a custom donation page](https://github.com/Charitable/library/blob/master/campaigns/add-field-to-set-custom-page-as-donation-page.php)
 
 ### Notifications
 

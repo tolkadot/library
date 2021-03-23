@@ -1,50 +1,53 @@
 <?php
-
 /**
- * This function adds a custom select field to the campaign submission form.
+ * This function adds a custom select field to the campaign submission
+ * form, as well as the admin campaign editor, campaign emails, and
+ * campaign export.
  *
- * @param   array                                $fields
- * @param   Charitable_Ambassadors_Campaign_Form $form
- * @return  array
+ * Note: This example requires Ambassadors 2+. For an example that worked
+ * on previous version, see the link below.
+ *
+ * @see https://github.com/Charitable/library/blob/master/extensions/ambassadors/legacy/add-select-field.php
+ *
+ * @return void
  */
-function ed_charitable_add_campaign_form_select_field( $fields, $form ) {
+add_action( 'init', function() {
+	$fields = charitable()->campaign_fields();
 
-    /**
-     * Retrieve the current value of the field in the form.
-     */
-    $value = $form->get_campaign_value( 'custom_select_field' );
-
-    /**
-     * Set up the options that people can choose from in the select.
-     *
-     * You could also get options dynamically from a set of posts,
-     * pages or custom post types, for example.
-     *
-     * @see ed_charitable_get_select_field_options()
-     */
+     /**
+      * Set up the options that people can choose from in the select.
+      *
+      * You could also get options dynamically from a set of posts,
+      * pages or custom post types, for example.
+      *
+      * @see ed_charitable_get_select_field_options()
+      */
     $options = array(
         'yes' => __( 'Yes', 'custom-namespace' ),
         'no'  => __( 'No', 'custom-namespace' ),
     );
 
-    /**
-     * Add the field to the array of fields.
-     */
-    $fields['custom_select_field'] = array(
-        'value'     => $value,
-        'priority'  => 1, // Adjust this to change where the field is inserted.
-        'data_type' => 'meta',
-        'label'     => __( 'Custom Field', 'custom-namespace' ),
-        'required'  => true,
-        'clear'     => false,
-        'type'      => 'select',
-        'options'   => $options,
-    );
+	/* Create the field. */
+	$field = new Charitable_Campaign_Field(
+		'custom_select_field',
+		[
+			'label'          => 'Custom Select Field',
+			'data_type'      => 'meta',
+			'campaign_form'  => [
+				'required' => true,
+				'type'     => 'select',
+				'section'  => 'campaign-details',
+				'options'  => $options,
+			],
+			'admin_form'     => true,
+			'show_in_export' => true,
+			'email_tag'      => true,
+		]
+	);
 
-     return $fields;
-}
-
-add_filter( 'charitable_campaign_submission_campaign_fields' , 'ed_charitable_add_campaign_form_select_field', 10, 2 );
+	// Register the field.
+	$fields->register_field( $field );
+} );
 
 /**
  * This function shows how you can generate your list of options based on a
@@ -71,5 +74,4 @@ function ed_charitable_get_select_field_options() {
     }
 
     return $options;
-
 }

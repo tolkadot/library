@@ -258,6 +258,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 #### Stripe
 
 - [Set a custom statement descriptor](https://github.com/Charitable/library/blob/master/gateways/stripe/set-statement-descriptor.php)
+- [Accept more payment methods in Stripe Checkout](https://github.com/Charitable/library/blob/master/gateways/stripe/add-payment-method-types-stripe-checkout.php)
 
 #### PayUMoney
 

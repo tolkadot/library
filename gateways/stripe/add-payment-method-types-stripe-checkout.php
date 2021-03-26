@@ -8,11 +8,14 @@
 add_filter(
     'charitable_stripe_session_args',
     function( $args ) {
-        $args['payment_method_types'] = array(
-			'card',
-			'ideal',
-			'giropay',
-		);
+        if ( ! isset( $args['subscription_data'] ) ) {
+			$args['payment_method_types'][] = 'ideal';
+            $args['payment_method_types'][] = 'giropay';
+
+			if ( isset( $args['payment_intent_data']['setup_future_usage'] ) ) {
+				unset( $args['payment_intent_data']['setup_future_usage'] );
+			}
+		}
 
         return $args;
     }

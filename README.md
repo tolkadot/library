@@ -428,6 +428,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Alone - Campaign page (add the extended description)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-page-with-extended-description.php)
 - [Alone - Campaign grid (removed the progress bar)](https://github.com/Charitable/library/blob/master/themes/alone/campaign-grid-remove-progress-bar.php)
 - [GreenCare - Campaign page (remove donation stats and progress bar)](https://github.com/Charitable/library/blob/master/themes/greencare/remove-donation-stats-and-progres-bar.php)
+- [Sage - Fix blank pages for Charitable pages in Sage theme (Roots)](https://github.com/Charitable/library/blob/master/themes/sage/fix-blank-pages-in-sage-roots-theme.php)
 
 ## Custom Templates
 

@@ -420,6 +420,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 ##### Custom Templates
 
 - [Customize which campaigns show on the campaign archive template](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/archive-campaign.php)
+- [Change the order in which campaigns are shown on the Homepage templateh](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/reorder-campaigns-in-campaign-grid.php)
 - [Change campaign stats to show number of donations instead of number of donors](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/show-number-of-donations-in-campaign-stats.php)
 - [Customize the stats in the campaign grid to include the goal and progress bar](https://github.com/Charitable/library/blob/master/custom-templates/themes/reach/customize-campaign-grid-stats.php)
 

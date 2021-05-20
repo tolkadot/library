@@ -236,6 +236,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Remove a column from the Donations export](https://github.com/Charitable/library/blob/master/export/remove-donation-columns.php)
 - [Format the date in the Date of Donation column](https://github.com/Charitable/library/blob/master/export/format-date.php)
 - [Add separate columns for each category/tag in the Donations export](https://github.com/Charitable/library/blob/master/export/add-individual-category-tag-columns.php)
+- [Add campaign creator name to the Donations export](https://github.com/Charitable/library/blob/master/export/add-campaign-creator-name-donation-export.php)
 - [Add extra campaign creator columns to the Campaigns export](https://github.com/Charitable/library/blob/master/export/add-campaign-creator-export-fields.php)
 
 ### Payment Gateways

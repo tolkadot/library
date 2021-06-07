@@ -171,6 +171,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 - [Disable description text santization](https://github.com/Charitable/library/blob/master/campaigns/disable-description-text-sanitization.php)
 - [Round the percentage donated to a whole number](https://github.com/Charitable/library/blob/master/campaigns/round-percent-donated-to-whole-number.php)
 - [Change the amount shown as donated to a particular campaign](https://github.com/Charitable/library/blob/master/campaigns/change-amount-donated.php)
+- [Change the donor count for a particular campaign](https://github.com/Charitable/library/blob/master/campaigns/change-donor-count.php)
 - [Change the campaign slug base](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-slug-base.php)
 - [Change the campaign rewrite rules to disable the `with_front` setting](https://github.com/Charitable/library/blob/master/campaigns/change-campaign-rewrite-to-not-use-with-front.php)
 - [Add a "Campaigns" menu tab to the WordPress dashboard](https://github.com/Charitable/library/blob/master/campaigns/add-campaigns-menu.php)

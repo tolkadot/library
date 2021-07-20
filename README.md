@@ -93,6 +93,7 @@ We welcome and encourage everyone to submit their code snippets. If you would li
 
 ##### Donation Amounts
 - [Change the "Custom amount" field label](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label.php)
+- [Change the "Custom amount" field label on a per-campaign basis](https://github.com/Charitable/library/blob/master/donation-form/change-custom-amount-field-label-per-campaign.php)
 - [Set fixed donation amount](https://github.com/Charitable/library/blob/master/donation-form/set-fixed-donation-amount.php)
 - [Set the default donation amount for all campaigns](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount.php)
 - [Set the default donation amount on a per-campaign basis](https://github.com/Charitable/library/blob/master/donation-form/set-default-donation-amount-per-campaign.php)
